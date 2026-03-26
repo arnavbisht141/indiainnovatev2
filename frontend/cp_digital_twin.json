@@ -1,0 +1,4281 @@
+{
+  "region": "Connaught Place, New Delhi",
+  "center": {
+    "lat": 28.6328,
+    "lon": 77.2197
+  },
+  "total_nodes": 98,
+  "total_edges": 431,
+  "nodes": [
+    {
+      "id": "PAR-B3DBF7FF",
+      "osm_id": 928558934,
+      "type": "ParkingZone",
+      "lat": 28.6324431,
+      "lon": 77.2212149,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "D",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PAR-624DA896",
+      "osm_id": 928559077,
+      "type": "ParkingZone",
+      "lat": 28.6318154,
+      "lon": 77.2207988,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "E",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PAR-AB00AAE4",
+      "osm_id": 928559154,
+      "type": "ParkingZone",
+      "lat": 28.6315957,
+      "lon": 77.2204152,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "E",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PAR-89CD3999",
+      "osm_id": 928559229,
+      "type": "ParkingZone",
+      "lat": 28.633774,
+      "lon": 77.2186316,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "L",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "yes",
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PAR-2F364CA2",
+      "osm_id": 928559360,
+      "type": "ParkingZone",
+      "lat": 28.6340848,
+      "lon": 77.2195757,
+      "name": "Unnamed",
+      "zone": "inner_circle",
+      "block": "K",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "yes",
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-AAEEBC26",
+      "osm_id": 2323525287,
+      "type": "PublicToilet",
+      "lat": 28.6277283,
+      "lon": 77.2170934,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "G",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-D36C5B95",
+      "osm_id": 2327524066,
+      "type": "PublicToilet",
+      "lat": 28.6321106,
+      "lon": 77.2205476,
+      "name": "Unnamed",
+      "zone": "inner_circle",
+      "block": "E",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": "limited",
+      "opening_hours": "Mo-Su 06:00-22:00"
+    },
+    {
+      "id": "WAS-44BDB555",
+      "osm_id": 4423020789,
+      "type": "WastePoint",
+      "lat": 28.6335843,
+      "lon": 77.2166414,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "M",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-4D1D47AE",
+      "osm_id": 5068273331,
+      "type": "PublicToilet",
+      "lat": 28.6339472,
+      "lon": 77.225211,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "C",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-1D4A8CC2",
+      "osm_id": 5068273788,
+      "type": "PublicToilet",
+      "lat": 28.6331254,
+      "lon": 77.2269459,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "C",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-A6842055",
+      "osm_id": 5068273978,
+      "type": "PublicToilet",
+      "lat": 28.6332852,
+      "lon": 77.2270346,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "C",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-AAB9FC75",
+      "osm_id": 5368462821,
+      "type": "PublicToilet",
+      "lat": 28.6294216,
+      "lon": 77.217468,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "H",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": "New Delhi Municipal Corporation",
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-BBCE4CDE",
+      "osm_id": 5498404975,
+      "type": "PublicToilet",
+      "lat": 28.6339704,
+      "lon": 77.2216328,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "B",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": "New Delhi Municipal Corporation",
+      "wheelchair": "yes",
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-150ACCE2",
+      "osm_id": 5498958698,
+      "type": "PublicToilet",
+      "lat": 28.6341887,
+      "lon": 77.2227897,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "C",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-A2773231",
+      "osm_id": 5521617221,
+      "type": "PublicToilet",
+      "lat": 28.629791,
+      "lon": 77.2190559,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "G",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-3FEF83B8",
+      "osm_id": 5577534201,
+      "type": "PublicToilet",
+      "lat": 28.6320671,
+      "lon": 77.2175099,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "N",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-C5455989",
+      "osm_id": 5577534326,
+      "type": "PublicToilet",
+      "lat": 28.6336905,
+      "lon": 77.2175781,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "M",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-3BF93B14",
+      "osm_id": 5578463454,
+      "type": "PublicToilet",
+      "lat": 28.6341481,
+      "lon": 77.2179356,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "L",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": "no",
+      "opening_hours": null
+    },
+    {
+      "id": "PAR-5EDCC3EC",
+      "osm_id": 5634145022,
+      "type": "ParkingZone",
+      "lat": 28.6312911,
+      "lon": 77.2214543,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "E",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-0506D4EA",
+      "osm_id": 5656398092,
+      "type": "PublicToilet",
+      "lat": 28.6324332,
+      "lon": 77.2202309,
+      "name": "Unnamed",
+      "zone": "inner_circle",
+      "block": "E",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-36252270",
+      "osm_id": 5656398093,
+      "type": "PublicToilet",
+      "lat": 28.6307285,
+      "lon": 77.2222043,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "E",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-0AFBDD7E",
+      "osm_id": 5736742927,
+      "type": "PublicToilet",
+      "lat": 28.6332462,
+      "lon": 77.2162929,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "M",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": "yes",
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-CB2FE462",
+      "osm_id": 5758573712,
+      "type": "PublicToilet",
+      "lat": 28.633173,
+      "lon": 77.2231474,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "C",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-FF9CBE37",
+      "osm_id": 5771449332,
+      "type": "PublicToilet",
+      "lat": 28.6358531,
+      "lon": 77.2184669,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "K",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": "yes",
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-1BA70932",
+      "osm_id": 5771449333,
+      "type": "PublicToilet",
+      "lat": 28.635961,
+      "lon": 77.2182471,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "K",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": "Mo-Su 06:00-22:00"
+    },
+    {
+      "id": "PUB-458E0DA7",
+      "osm_id": 5784312300,
+      "type": "PublicToilet",
+      "lat": 28.6341304,
+      "lon": 77.2167706,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "M",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-8671167B",
+      "osm_id": 5784351554,
+      "type": "WastePoint",
+      "lat": 28.6332981,
+      "lon": 77.21666,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "M",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-75570639",
+      "osm_id": 5784351689,
+      "type": "WastePoint",
+      "lat": 28.6330316,
+      "lon": 77.2166624,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "M",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-2751D35C",
+      "osm_id": 5799060316,
+      "type": "PublicToilet",
+      "lat": 28.6319296,
+      "lon": 77.2155817,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "N",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-3D567BD2",
+      "osm_id": 5799061868,
+      "type": "PublicToilet",
+      "lat": 28.6296912,
+      "lon": 77.2176394,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "H",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-BF1A2F26",
+      "osm_id": 6161687904,
+      "type": "PublicToilet",
+      "lat": 28.6307822,
+      "lon": 77.2160257,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "N",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-772C1499",
+      "osm_id": 6161690526,
+      "type": "WastePoint",
+      "lat": 28.6350437,
+      "lon": 77.2212522,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "B",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-DF2FEAA7",
+      "osm_id": 6161690689,
+      "type": "PublicToilet",
+      "lat": 28.6307126,
+      "lon": 77.2158613,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "N",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-D4E5D804",
+      "osm_id": 6278067685,
+      "type": "PublicToilet",
+      "lat": 28.634873,
+      "lon": 77.2204913,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "A",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": "no",
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-B308E3CA",
+      "osm_id": 6278106189,
+      "type": "PublicToilet",
+      "lat": 28.6317079,
+      "lon": 77.2219529,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "D",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": "NDMC",
+      "wheelchair": null,
+      "opening_hours": "Mo-Su 06:00-22:00"
+    },
+    {
+      "id": "PUB-89529325",
+      "osm_id": 6371937737,
+      "type": "PublicToilet",
+      "lat": 28.6327737,
+      "lon": 77.2231872,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "D",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": "yes",
+      "opening_hours": "Mo-Su 04:00-22:00"
+    },
+    {
+      "id": "PUB-91F3CB48",
+      "osm_id": 6371968794,
+      "type": "PublicToilet",
+      "lat": 28.6319359,
+      "lon": 77.2218514,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "D",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": "NDMC",
+      "wheelchair": "no",
+      "opening_hours": "Mo-Su 04:00-22:00"
+    },
+    {
+      "id": "PUB-8715C531",
+      "osm_id": 6832945792,
+      "type": "PublicToilet",
+      "lat": 28.6357264,
+      "lon": 77.2191076,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "K",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-14D0E31C",
+      "osm_id": 8982368744,
+      "type": "PublicToilet",
+      "lat": 28.6271712,
+      "lon": 77.2191207,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "G",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": "no",
+      "opening_hours": "Mo-Su 06:00-22:00"
+    },
+    {
+      "id": "WAS-66BD1CC4",
+      "osm_id": 9037075898,
+      "type": "WastePoint",
+      "lat": 28.6303283,
+      "lon": 77.2196785,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "G",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-8CD752AE",
+      "osm_id": 9037075902,
+      "type": "WastePoint",
+      "lat": 28.6301635,
+      "lon": 77.2196454,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "G",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-2F06A34C",
+      "osm_id": 9212682330,
+      "type": "PublicToilet",
+      "lat": 28.6292802,
+      "lon": 77.2261164,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "D",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": "designated",
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-8EA2C2C8",
+      "osm_id": 9234669608,
+      "type": "WastePoint",
+      "lat": 28.6297941,
+      "lon": 77.2212705,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "F",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-22F8867C",
+      "osm_id": 10239667686,
+      "type": "PublicToilet",
+      "lat": 28.6334054,
+      "lon": 77.2249322,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "C",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-C2A9B0A4",
+      "osm_id": 10905351903,
+      "type": "WastePoint",
+      "lat": 28.6348795,
+      "lon": 77.2195765,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "K",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-B3C3F308",
+      "osm_id": 10924234083,
+      "type": "PublicToilet",
+      "lat": 28.6331064,
+      "lon": 77.2200319,
+      "name": "Unnamed",
+      "zone": "inner_circle",
+      "block": "B",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "yes",
+      "operator": "Sulabh",
+      "wheelchair": "designated",
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-5DC0EE0A",
+      "osm_id": 11252599083,
+      "type": "PublicToilet",
+      "lat": 28.6336904,
+      "lon": 77.2212223,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "B",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-DCD162F4",
+      "osm_id": 11434769345,
+      "type": "WastePoint",
+      "lat": 28.6323902,
+      "lon": 77.2212572,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "D",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-A8B2E87C",
+      "osm_id": 11443228753,
+      "type": "WastePoint",
+      "lat": 28.6336951,
+      "lon": 77.2207653,
+      "name": "Unnamed",
+      "zone": "inner_circle",
+      "block": "B",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-122BFEC1",
+      "osm_id": 11478668702,
+      "type": "WastePoint",
+      "lat": 28.6338929,
+      "lon": 77.2207113,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "B",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-CB7DF763",
+      "osm_id": 11478668707,
+      "type": "WastePoint",
+      "lat": 28.633711,
+      "lon": 77.2209141,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "B",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-91D743AB",
+      "osm_id": 11478668731,
+      "type": "WastePoint",
+      "lat": 28.6337613,
+      "lon": 77.2208731,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "B",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-7DF4843E",
+      "osm_id": 11637194095,
+      "type": "WastePoint",
+      "lat": 28.6335091,
+      "lon": 77.2206207,
+      "name": "Unnamed",
+      "zone": "inner_circle",
+      "block": "B",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-BBE66F72",
+      "osm_id": 11637194099,
+      "type": "WastePoint",
+      "lat": 28.6333825,
+      "lon": 77.2186842,
+      "name": "Unnamed",
+      "zone": "inner_circle",
+      "block": "M",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-5C17F67B",
+      "osm_id": 11637194100,
+      "type": "PublicToilet",
+      "lat": 28.6330467,
+      "lon": 77.2186114,
+      "name": "Unnamed",
+      "zone": "inner_circle",
+      "block": "M",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": "Mo-Su 06:00-22:00"
+    },
+    {
+      "id": "WAS-E3A98EBC",
+      "osm_id": 11637194101,
+      "type": "WastePoint",
+      "lat": 28.6329173,
+      "lon": 77.2184941,
+      "name": "Unnamed",
+      "zone": "inner_circle",
+      "block": "M",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-48F240C5",
+      "osm_id": 11637194103,
+      "type": "WastePoint",
+      "lat": 28.6338704,
+      "lon": 77.2198077,
+      "name": "Unnamed",
+      "zone": "inner_circle",
+      "block": "A",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-97BE9D90",
+      "osm_id": 11637194105,
+      "type": "WastePoint",
+      "lat": 28.6333722,
+      "lon": 77.2207256,
+      "name": "Unnamed",
+      "zone": "inner_circle",
+      "block": "C",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-44C49F7A",
+      "osm_id": 11637194113,
+      "type": "WastePoint",
+      "lat": 28.6318049,
+      "lon": 77.2201624,
+      "name": "Unnamed",
+      "zone": "inner_circle",
+      "block": "F",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-D664A285",
+      "osm_id": 11637194115,
+      "type": "WastePoint",
+      "lat": 28.6337641,
+      "lon": 77.219189,
+      "name": "Unnamed",
+      "zone": "inner_circle",
+      "block": "K",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-B4F611FF",
+      "osm_id": 11637194116,
+      "type": "WastePoint",
+      "lat": 28.6330911,
+      "lon": 77.2185821,
+      "name": "Unnamed",
+      "zone": "inner_circle",
+      "block": "M",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-0C33F8FB",
+      "osm_id": 11637592527,
+      "type": "WastePoint",
+      "lat": 28.6308287,
+      "lon": 77.2159747,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "N",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-9CB2798A",
+      "osm_id": 11792914407,
+      "type": "PublicToilet",
+      "lat": 28.6329915,
+      "lon": 77.2152444,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "M",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": "designated",
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-2EF5AB8F",
+      "osm_id": 11799184119,
+      "type": "WastePoint",
+      "lat": 28.6327435,
+      "lon": 77.2231301,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "D",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-13C64035",
+      "osm_id": 11806607803,
+      "type": "WastePoint",
+      "lat": 28.6330765,
+      "lon": 77.2158448,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "M",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-B3210778",
+      "osm_id": 11827370423,
+      "type": "WastePoint",
+      "lat": 28.6325943,
+      "lon": 77.2220569,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "D",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-AB9A3897",
+      "osm_id": 11868864941,
+      "type": "WastePoint",
+      "lat": 28.6307638,
+      "lon": 77.2234093,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "D",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-5CE47E92",
+      "osm_id": 11868864945,
+      "type": "PublicToilet",
+      "lat": 28.6308463,
+      "lon": 77.2234878,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "D",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": "no",
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-58C56D45",
+      "osm_id": 11868892363,
+      "type": "WastePoint",
+      "lat": 28.6298256,
+      "lon": 77.2252306,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "D",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-D131F4F8",
+      "osm_id": 11868892364,
+      "type": "WastePoint",
+      "lat": 28.6310274,
+      "lon": 77.223516,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "D",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-96A07C5F",
+      "osm_id": 11868954130,
+      "type": "WastePoint",
+      "lat": 28.6292449,
+      "lon": 77.2256076,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "E",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-D01DC0D3",
+      "osm_id": 11868985170,
+      "type": "WastePoint",
+      "lat": 28.6293506,
+      "lon": 77.2253151,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "E",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-99C97779",
+      "osm_id": 12098406098,
+      "type": "WastePoint",
+      "lat": 28.6306381,
+      "lon": 77.2182203,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "H",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-CFC967C5",
+      "osm_id": 12098406100,
+      "type": "PublicToilet",
+      "lat": 28.6307381,
+      "lon": 77.2182885,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "H",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": "designated",
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-3747C899",
+      "osm_id": 12098409836,
+      "type": "WastePoint",
+      "lat": 28.6313293,
+      "lon": 77.2194083,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "G",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-76A70D41",
+      "osm_id": 12098420589,
+      "type": "WastePoint",
+      "lat": 28.6315594,
+      "lon": 77.2194816,
+      "name": "Unnamed",
+      "zone": "inner_circle",
+      "block": "G",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-2E4CDD37",
+      "osm_id": 12098437448,
+      "type": "WastePoint",
+      "lat": 28.632831,
+      "lon": 77.2213176,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "C",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-38159F96",
+      "osm_id": 12098437462,
+      "type": "WastePoint",
+      "lat": 28.6325912,
+      "lon": 77.2213082,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "D",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-E3B66FEE",
+      "osm_id": 12098553722,
+      "type": "PublicToilet",
+      "lat": 28.6334597,
+      "lon": 77.2219151,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "C",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": "no",
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-26D50FC0",
+      "osm_id": 12098553777,
+      "type": "PublicToilet",
+      "lat": 28.6334816,
+      "lon": 77.2219033,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "C",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": "no",
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-F3289889",
+      "osm_id": 12183462319,
+      "type": "WastePoint",
+      "lat": 28.6286146,
+      "lon": 77.2168917,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "H",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-F81F2EB9",
+      "osm_id": 12977871221,
+      "type": "WastePoint",
+      "lat": 28.6315053,
+      "lon": 77.2203707,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "F",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-A2A03D84",
+      "osm_id": 13020659671,
+      "type": "PublicToilet",
+      "lat": 28.6368007,
+      "lon": 77.2249809,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "B",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "DRA-F6C70AC2",
+      "osm_id": 13039195310,
+      "type": "DrainNode",
+      "lat": 28.6272224,
+      "lon": 77.2228049,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "F",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": "Delhi Police CCTV",
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "DRA-1B7E2138",
+      "osm_id": 13039195311,
+      "type": "DrainNode",
+      "lat": 28.6299479,
+      "lon": 77.2197861,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "F",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": "Delhi Police CCTV",
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-3EDEBCD6",
+      "osm_id": 13282321127,
+      "type": "PublicToilet",
+      "lat": 28.635417,
+      "lon": 77.2273679,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "C",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-404EAF90",
+      "osm_id": 13282321128,
+      "type": "PublicToilet",
+      "lat": 28.6354035,
+      "lon": 77.2273911,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "C",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-CF88F86B",
+      "osm_id": 13290517661,
+      "type": "PublicToilet",
+      "lat": 28.6375267,
+      "lon": 77.2236372,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "B",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-63E9D041",
+      "osm_id": 13306950428,
+      "type": "PublicToilet",
+      "lat": 28.6353229,
+      "lon": 77.2217773,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "B",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-818FB622",
+      "osm_id": 13358572979,
+      "type": "PublicToilet",
+      "lat": 28.6359427,
+      "lon": 77.2182465,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "K",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": "Mo-Su 06:00-22:00"
+    },
+    {
+      "id": "PUB-CFAACE43",
+      "osm_id": 13358572989,
+      "type": "PublicToilet",
+      "lat": 28.6360758,
+      "lon": 77.2182056,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "K",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": "Mo-Su 06:00-22:00"
+    },
+    {
+      "id": "PUB-382E2001",
+      "osm_id": 13358572990,
+      "type": "PublicToilet",
+      "lat": 28.6360881,
+      "lon": 77.2182052,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "K",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": "Mo-Su 06:00-22:00"
+    },
+    {
+      "id": "PUB-14A12560",
+      "osm_id": 13358572997,
+      "type": "PublicToilet",
+      "lat": 28.6357281,
+      "lon": 77.2191261,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "K",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": "no",
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-776563DD",
+      "osm_id": 13447614046,
+      "type": "WastePoint",
+      "lat": 28.6328521,
+      "lon": 77.2193352,
+      "name": "Unnamed",
+      "zone": "inner_circle",
+      "block": "M",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-0CB9AFAF",
+      "osm_id": 13447614052,
+      "type": "WastePoint",
+      "lat": 28.6323099,
+      "lon": 77.2197937,
+      "name": "Unnamed",
+      "zone": "inner_circle",
+      "block": "F",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "PUB-DDB37135",
+      "osm_id": 13447627564,
+      "type": "PublicToilet",
+      "lat": 28.6328827,
+      "lon": 77.2234494,
+      "name": "Unnamed",
+      "zone": "outer_circle",
+      "block": "C",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-474181C3",
+      "osm_id": 13629388036,
+      "type": "WastePoint",
+      "lat": 28.6316176,
+      "lon": 77.2186972,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "H",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    },
+    {
+      "id": "WAS-3E367049",
+      "osm_id": 13629393217,
+      "type": "WastePoint",
+      "lat": 28.6309135,
+      "lon": 77.2184155,
+      "name": "Unnamed",
+      "zone": "middle_circle",
+      "block": "H",
+      "health_score": 85,
+      "last_inspected": null,
+      "active_complaints": 0,
+      "fee": null,
+      "operator": null,
+      "wheelchair": null,
+      "opening_hours": null
+    }
+  ],
+  "edges": [
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "PAR-624DA896",
+      "type": "ADJACENT_TO",
+      "distance_m": 80.6
+    },
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "PAR-AB00AAE4",
+      "type": "ADJACENT_TO",
+      "distance_m": 122.1
+    },
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "PUB-D36C5B95",
+      "type": "ADJACENT_TO",
+      "distance_m": 74.8
+    },
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "PAR-5EDCC3EC",
+      "type": "ADJACENT_TO",
+      "distance_m": 130.0
+    },
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "PUB-0506D4EA",
+      "type": "ADJACENT_TO",
+      "distance_m": 95.9
+    },
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "PUB-B308E3CA",
+      "type": "ADJACENT_TO",
+      "distance_m": 108.8
+    },
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "PUB-91F3CB48",
+      "type": "ADJACENT_TO",
+      "distance_m": 83.8
+    },
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "PUB-B3C3F308",
+      "type": "ADJACENT_TO",
+      "distance_m": 136.8
+    },
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "PUB-5DC0EE0A",
+      "type": "ADJACENT_TO",
+      "distance_m": 138.5
+    },
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "WAS-DCD162F4",
+      "type": "ADJACENT_TO",
+      "distance_m": 7.2
+    },
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "WAS-A8B2E87C",
+      "type": "ADJACENT_TO",
+      "distance_m": 145.7
+    },
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "WAS-CB7DF763",
+      "type": "ADJACENT_TO",
+      "distance_m": 143.8
+    },
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "WAS-7DF4843E",
+      "type": "ADJACENT_TO",
+      "distance_m": 131.7
+    },
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "WAS-97BE9D90",
+      "type": "ADJACENT_TO",
+      "distance_m": 113.6
+    },
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "WAS-44C49F7A",
+      "type": "ADJACENT_TO",
+      "distance_m": 124.6
+    },
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "WAS-B3210778",
+      "type": "ADJACENT_TO",
+      "distance_m": 83.7
+    },
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "WAS-2E4CDD37",
+      "type": "ADJACENT_TO",
+      "distance_m": 44.2
+    },
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "WAS-38159F96",
+      "type": "ADJACENT_TO",
+      "distance_m": 18.8
+    },
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "PUB-E3B66FEE",
+      "type": "ADJACENT_TO",
+      "distance_m": 131.9
+    },
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "PUB-26D50FC0",
+      "type": "ADJACENT_TO",
+      "distance_m": 133.4
+    },
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "WAS-F81F2EB9",
+      "type": "ADJACENT_TO",
+      "distance_m": 132.7
+    },
+    {
+      "from": "PAR-B3DBF7FF",
+      "to": "WAS-0CB9AFAF",
+      "type": "ADJACENT_TO",
+      "distance_m": 139.2
+    },
+    {
+      "from": "PAR-624DA896",
+      "to": "PAR-AB00AAE4",
+      "type": "ADJACENT_TO",
+      "distance_m": 44.6
+    },
+    {
+      "from": "PAR-624DA896",
+      "to": "PUB-D36C5B95",
+      "type": "ADJACENT_TO",
+      "distance_m": 40.9
+    },
+    {
+      "from": "PAR-624DA896",
+      "to": "PAR-5EDCC3EC",
+      "type": "ADJACENT_TO",
+      "distance_m": 86.4
+    },
+    {
+      "from": "PAR-624DA896",
+      "to": "PUB-0506D4EA",
+      "type": "ADJACENT_TO",
+      "distance_m": 88.1
+    },
+    {
+      "from": "PAR-624DA896",
+      "to": "PUB-B308E3CA",
+      "type": "ADJACENT_TO",
+      "distance_m": 113.1
+    },
+    {
+      "from": "PAR-624DA896",
+      "to": "PUB-91F3CB48",
+      "type": "ADJACENT_TO",
+      "distance_m": 103.4
+    },
+    {
+      "from": "PAR-624DA896",
+      "to": "WAS-DCD162F4",
+      "type": "ADJACENT_TO",
+      "distance_m": 77.9
+    },
+    {
+      "from": "PAR-624DA896",
+      "to": "WAS-44C49F7A",
+      "type": "ADJACENT_TO",
+      "distance_m": 62.0
+    },
+    {
+      "from": "PAR-624DA896",
+      "to": "WAS-B3210778",
+      "type": "ADJACENT_TO",
+      "distance_m": 150.0
+    },
+    {
+      "from": "PAR-624DA896",
+      "to": "WAS-3747C899",
+      "type": "ADJACENT_TO",
+      "distance_m": 145.8
+    },
+    {
+      "from": "PAR-624DA896",
+      "to": "WAS-76A70D41",
+      "type": "ADJACENT_TO",
+      "distance_m": 131.4
+    },
+    {
+      "from": "PAR-624DA896",
+      "to": "WAS-2E4CDD37",
+      "type": "ADJACENT_TO",
+      "distance_m": 123.5
+    },
+    {
+      "from": "PAR-624DA896",
+      "to": "WAS-38159F96",
+      "type": "ADJACENT_TO",
+      "distance_m": 99.4
+    },
+    {
+      "from": "PAR-624DA896",
+      "to": "WAS-F81F2EB9",
+      "type": "ADJACENT_TO",
+      "distance_m": 54.1
+    },
+    {
+      "from": "PAR-624DA896",
+      "to": "WAS-0CB9AFAF",
+      "type": "ADJACENT_TO",
+      "distance_m": 112.3
+    },
+    {
+      "from": "PAR-AB00AAE4",
+      "to": "PUB-D36C5B95",
+      "type": "ADJACENT_TO",
+      "distance_m": 58.6
+    },
+    {
+      "from": "PAR-AB00AAE4",
+      "to": "PAR-5EDCC3EC",
+      "type": "ADJACENT_TO",
+      "distance_m": 106.7
+    },
+    {
+      "from": "PAR-AB00AAE4",
+      "to": "PUB-0506D4EA",
+      "type": "ADJACENT_TO",
+      "distance_m": 94.7
+    },
+    {
+      "from": "PAR-AB00AAE4",
+      "to": "PUB-91F3CB48",
+      "type": "ADJACENT_TO",
+      "distance_m": 144.9
+    },
+    {
+      "from": "PAR-AB00AAE4",
+      "to": "WAS-DCD162F4",
+      "type": "ADJACENT_TO",
+      "distance_m": 120.4
+    },
+    {
+      "from": "PAR-AB00AAE4",
+      "to": "WAS-44C49F7A",
+      "type": "ADJACENT_TO",
+      "distance_m": 33.9
+    },
+    {
+      "from": "PAR-AB00AAE4",
+      "to": "WAS-3747C899",
+      "type": "ADJACENT_TO",
+      "distance_m": 102.5
+    },
+    {
+      "from": "PAR-AB00AAE4",
+      "to": "WAS-76A70D41",
+      "type": "ADJACENT_TO",
+      "distance_m": 91.0
+    },
+    {
+      "from": "PAR-AB00AAE4",
+      "to": "WAS-38159F96",
+      "type": "ADJACENT_TO",
+      "distance_m": 140.6
+    },
+    {
+      "from": "PAR-AB00AAE4",
+      "to": "WAS-F81F2EB9",
+      "type": "ADJACENT_TO",
+      "distance_m": 10.9
+    },
+    {
+      "from": "PAR-AB00AAE4",
+      "to": "WAS-0CB9AFAF",
+      "type": "ADJACENT_TO",
+      "distance_m": 99.8
+    },
+    {
+      "from": "PAR-89CD3999",
+      "to": "PAR-2F364CA2",
+      "type": "ADJACENT_TO",
+      "distance_m": 98.2
+    },
+    {
+      "from": "PAR-89CD3999",
+      "to": "PUB-C5455989",
+      "type": "ADJACENT_TO",
+      "distance_m": 103.1
+    },
+    {
+      "from": "PAR-89CD3999",
+      "to": "PUB-3BF93B14",
+      "type": "ADJACENT_TO",
+      "distance_m": 79.5
+    },
+    {
+      "from": "PAR-89CD3999",
+      "to": "WAS-BBE66F72",
+      "type": "ADJACENT_TO",
+      "distance_m": 43.8
+    },
+    {
+      "from": "PAR-89CD3999",
+      "to": "PUB-5C17F67B",
+      "type": "ADJACENT_TO",
+      "distance_m": 80.8
+    },
+    {
+      "from": "PAR-89CD3999",
+      "to": "WAS-E3A98EBC",
+      "type": "ADJACENT_TO",
+      "distance_m": 96.0
+    },
+    {
+      "from": "PAR-89CD3999",
+      "to": "WAS-48F240C5",
+      "type": "ADJACENT_TO",
+      "distance_m": 115.1
+    },
+    {
+      "from": "PAR-89CD3999",
+      "to": "WAS-D664A285",
+      "type": "ADJACENT_TO",
+      "distance_m": 54.3
+    },
+    {
+      "from": "PAR-89CD3999",
+      "to": "WAS-B4F611FF",
+      "type": "ADJACENT_TO",
+      "distance_m": 76.0
+    },
+    {
+      "from": "PAR-89CD3999",
+      "to": "WAS-776563DD",
+      "type": "ADJACENT_TO",
+      "distance_m": 123.2
+    },
+    {
+      "from": "PAR-2F364CA2",
+      "to": "PUB-D4E5D804",
+      "type": "ADJACENT_TO",
+      "distance_m": 124.9
+    },
+    {
+      "from": "PAR-2F364CA2",
+      "to": "WAS-C2A9B0A4",
+      "type": "ADJACENT_TO",
+      "distance_m": 88.2
+    },
+    {
+      "from": "PAR-2F364CA2",
+      "to": "PUB-B3C3F308",
+      "type": "ADJACENT_TO",
+      "distance_m": 117.3
+    },
+    {
+      "from": "PAR-2F364CA2",
+      "to": "WAS-A8B2E87C",
+      "type": "ADJACENT_TO",
+      "distance_m": 123.7
+    },
+    {
+      "from": "PAR-2F364CA2",
+      "to": "WAS-122BFEC1",
+      "type": "ADJACENT_TO",
+      "distance_m": 112.7
+    },
+    {
+      "from": "PAR-2F364CA2",
+      "to": "WAS-CB7DF763",
+      "type": "ADJACENT_TO",
+      "distance_m": 136.8
+    },
+    {
+      "from": "PAR-2F364CA2",
+      "to": "WAS-91D743AB",
+      "type": "ADJACENT_TO",
+      "distance_m": 131.4
+    },
+    {
+      "from": "PAR-2F364CA2",
+      "to": "WAS-7DF4843E",
+      "type": "ADJACENT_TO",
+      "distance_m": 120.2
+    },
+    {
+      "from": "PAR-2F364CA2",
+      "to": "WAS-BBE66F72",
+      "type": "ADJACENT_TO",
+      "distance_m": 116.7
+    },
+    {
+      "from": "PAR-2F364CA2",
+      "to": "PUB-5C17F67B",
+      "type": "ADJACENT_TO",
+      "distance_m": 148.7
+    },
+    {
+      "from": "PAR-2F364CA2",
+      "to": "WAS-48F240C5",
+      "type": "ADJACENT_TO",
+      "distance_m": 32.8
+    },
+    {
+      "from": "PAR-2F364CA2",
+      "to": "WAS-97BE9D90",
+      "type": "ADJACENT_TO",
+      "distance_m": 137.1
+    },
+    {
+      "from": "PAR-2F364CA2",
+      "to": "WAS-D664A285",
+      "type": "ADJACENT_TO",
+      "distance_m": 51.8
+    },
+    {
+      "from": "PAR-2F364CA2",
+      "to": "WAS-B4F611FF",
+      "type": "ADJACENT_TO",
+      "distance_m": 146.8
+    },
+    {
+      "from": "PAR-2F364CA2",
+      "to": "WAS-776563DD",
+      "type": "ADJACENT_TO",
+      "distance_m": 138.8
+    },
+    {
+      "from": "PUB-AAEEBC26",
+      "to": "WAS-F3289889",
+      "type": "ADJACENT_TO",
+      "distance_m": 100.3
+    },
+    {
+      "from": "PUB-D36C5B95",
+      "to": "PAR-5EDCC3EC",
+      "type": "ADJACENT_TO",
+      "distance_m": 126.8
+    },
+    {
+      "from": "PUB-D36C5B95",
+      "to": "PUB-0506D4EA",
+      "type": "ADJACENT_TO",
+      "distance_m": 47.3
+    },
+    {
+      "from": "PUB-D36C5B95",
+      "to": "PUB-B308E3CA",
+      "type": "ADJACENT_TO",
+      "distance_m": 144.0
+    },
+    {
+      "from": "PUB-D36C5B95",
+      "to": "PUB-91F3CB48",
+      "type": "ADJACENT_TO",
+      "distance_m": 128.5
+    },
+    {
+      "from": "PUB-D36C5B95",
+      "to": "PUB-B3C3F308",
+      "type": "ADJACENT_TO",
+      "distance_m": 121.4
+    },
+    {
+      "from": "PUB-D36C5B95",
+      "to": "WAS-DCD162F4",
+      "type": "ADJACENT_TO",
+      "distance_m": 75.8
+    },
+    {
+      "from": "PUB-D36C5B95",
+      "to": "WAS-97BE9D90",
+      "type": "ADJACENT_TO",
+      "distance_m": 141.1
+    },
+    {
+      "from": "PUB-D36C5B95",
+      "to": "WAS-44C49F7A",
+      "type": "ADJACENT_TO",
+      "distance_m": 50.6
+    },
+    {
+      "from": "PUB-D36C5B95",
+      "to": "WAS-3747C899",
+      "type": "ADJACENT_TO",
+      "distance_m": 140.9
+    },
+    {
+      "from": "PUB-D36C5B95",
+      "to": "WAS-76A70D41",
+      "type": "ADJACENT_TO",
+      "distance_m": 120.5
+    },
+    {
+      "from": "PUB-D36C5B95",
+      "to": "WAS-2E4CDD37",
+      "type": "ADJACENT_TO",
+      "distance_m": 109.6
+    },
+    {
+      "from": "PUB-D36C5B95",
+      "to": "WAS-38159F96",
+      "type": "ADJACENT_TO",
+      "distance_m": 91.3
+    },
+    {
+      "from": "PUB-D36C5B95",
+      "to": "WAS-F81F2EB9",
+      "type": "ADJACENT_TO",
+      "distance_m": 69.4
+    },
+    {
+      "from": "PUB-D36C5B95",
+      "to": "WAS-776563DD",
+      "type": "ADJACENT_TO",
+      "distance_m": 144.0
+    },
+    {
+      "from": "PUB-D36C5B95",
+      "to": "WAS-0CB9AFAF",
+      "type": "ADJACENT_TO",
+      "distance_m": 76.7
+    },
+    {
+      "from": "WAS-44BDB555",
+      "to": "PUB-C5455989",
+      "type": "ADJACENT_TO",
+      "distance_m": 92.0
+    },
+    {
+      "from": "WAS-44BDB555",
+      "to": "PUB-3BF93B14",
+      "type": "ADJACENT_TO",
+      "distance_m": 140.8
+    },
+    {
+      "from": "WAS-44BDB555",
+      "to": "PUB-0AFBDD7E",
+      "type": "ADJACENT_TO",
+      "distance_m": 50.6
+    },
+    {
+      "from": "WAS-44BDB555",
+      "to": "PUB-458E0DA7",
+      "type": "ADJACENT_TO",
+      "distance_m": 61.9
+    },
+    {
+      "from": "WAS-44BDB555",
+      "to": "WAS-8671167B",
+      "type": "ADJACENT_TO",
+      "distance_m": 31.8
+    },
+    {
+      "from": "WAS-44BDB555",
+      "to": "WAS-75570639",
+      "type": "ADJACENT_TO",
+      "distance_m": 61.4
+    },
+    {
+      "from": "WAS-44BDB555",
+      "to": "WAS-13C64035",
+      "type": "ADJACENT_TO",
+      "distance_m": 95.9
+    },
+    {
+      "from": "PUB-4D1D47AE",
+      "to": "PUB-22F8867C",
+      "type": "ADJACENT_TO",
+      "distance_m": 66.0
+    },
+    {
+      "from": "PUB-1D4A8CC2",
+      "to": "PUB-A6842055",
+      "type": "ADJACENT_TO",
+      "distance_m": 19.7
+    },
+    {
+      "from": "PUB-AAB9FC75",
+      "to": "PUB-3D567BD2",
+      "type": "ADJACENT_TO",
+      "distance_m": 34.3
+    },
+    {
+      "from": "PUB-AAB9FC75",
+      "to": "WAS-F3289889",
+      "type": "ADJACENT_TO",
+      "distance_m": 105.7
+    },
+    {
+      "from": "PUB-BBCE4CDE",
+      "to": "PUB-150ACCE2",
+      "type": "ADJACENT_TO",
+      "distance_m": 115.3
+    },
+    {
+      "from": "PUB-BBCE4CDE",
+      "to": "WAS-772C1499",
+      "type": "ADJACENT_TO",
+      "distance_m": 124.8
+    },
+    {
+      "from": "PUB-BBCE4CDE",
+      "to": "PUB-D4E5D804",
+      "type": "ADJACENT_TO",
+      "distance_m": 149.7
+    },
+    {
+      "from": "PUB-BBCE4CDE",
+      "to": "PUB-5DC0EE0A",
+      "type": "ADJACENT_TO",
+      "distance_m": 50.6
+    },
+    {
+      "from": "PUB-BBCE4CDE",
+      "to": "WAS-A8B2E87C",
+      "type": "ADJACENT_TO",
+      "distance_m": 89.9
+    },
+    {
+      "from": "PUB-BBCE4CDE",
+      "to": "WAS-122BFEC1",
+      "type": "ADJACENT_TO",
+      "distance_m": 90.2
+    },
+    {
+      "from": "PUB-BBCE4CDE",
+      "to": "WAS-CB7DF763",
+      "type": "ADJACENT_TO",
+      "distance_m": 75.7
+    },
+    {
+      "from": "PUB-BBCE4CDE",
+      "to": "WAS-91D743AB",
+      "type": "ADJACENT_TO",
+      "distance_m": 77.6
+    },
+    {
+      "from": "PUB-BBCE4CDE",
+      "to": "WAS-7DF4843E",
+      "type": "ADJACENT_TO",
+      "distance_m": 111.1
+    },
+    {
+      "from": "PUB-BBCE4CDE",
+      "to": "WAS-97BE9D90",
+      "type": "ADJACENT_TO",
+      "distance_m": 110.5
+    },
+    {
+      "from": "PUB-BBCE4CDE",
+      "to": "WAS-2E4CDD37",
+      "type": "ADJACENT_TO",
+      "distance_m": 130.1
+    },
+    {
+      "from": "PUB-BBCE4CDE",
+      "to": "PUB-E3B66FEE",
+      "type": "ADJACENT_TO",
+      "distance_m": 63.0
+    },
+    {
+      "from": "PUB-BBCE4CDE",
+      "to": "PUB-26D50FC0",
+      "type": "ADJACENT_TO",
+      "distance_m": 60.3
+    },
+    {
+      "from": "PUB-150ACCE2",
+      "to": "PUB-CB2FE462",
+      "type": "ADJACENT_TO",
+      "distance_m": 118.0
+    },
+    {
+      "from": "PUB-150ACCE2",
+      "to": "PUB-E3B66FEE",
+      "type": "ADJACENT_TO",
+      "distance_m": 117.5
+    },
+    {
+      "from": "PUB-150ACCE2",
+      "to": "PUB-26D50FC0",
+      "type": "ADJACENT_TO",
+      "distance_m": 116.7
+    },
+    {
+      "from": "PUB-A2773231",
+      "to": "PUB-3D567BD2",
+      "type": "ADJACENT_TO",
+      "distance_m": 138.5
+    },
+    {
+      "from": "PUB-A2773231",
+      "to": "WAS-66BD1CC4",
+      "type": "ADJACENT_TO",
+      "distance_m": 85.1
+    },
+    {
+      "from": "PUB-A2773231",
+      "to": "WAS-8CD752AE",
+      "type": "ADJACENT_TO",
+      "distance_m": 70.8
+    },
+    {
+      "from": "PUB-A2773231",
+      "to": "WAS-99C97779",
+      "type": "ADJACENT_TO",
+      "distance_m": 124.4
+    },
+    {
+      "from": "PUB-A2773231",
+      "to": "PUB-CFC967C5",
+      "type": "ADJACENT_TO",
+      "distance_m": 129.0
+    },
+    {
+      "from": "PUB-A2773231",
+      "to": "DRA-1B7E2138",
+      "type": "ADJACENT_TO",
+      "distance_m": 73.2
+    },
+    {
+      "from": "PUB-A2773231",
+      "to": "WAS-3E367049",
+      "type": "ADJACENT_TO",
+      "distance_m": 139.3
+    },
+    {
+      "from": "PUB-3FEF83B8",
+      "to": "WAS-75570639",
+      "type": "ADJACENT_TO",
+      "distance_m": 135.2
+    },
+    {
+      "from": "PUB-3FEF83B8",
+      "to": "WAS-E3A98EBC",
+      "type": "ADJACENT_TO",
+      "distance_m": 134.5
+    },
+    {
+      "from": "PUB-3FEF83B8",
+      "to": "WAS-474181C3",
+      "type": "ADJACENT_TO",
+      "distance_m": 126.0
+    },
+    {
+      "from": "PUB-C5455989",
+      "to": "PUB-3BF93B14",
+      "type": "ADJACENT_TO",
+      "distance_m": 61.6
+    },
+    {
+      "from": "PUB-C5455989",
+      "to": "PUB-0AFBDD7E",
+      "type": "ADJACENT_TO",
+      "distance_m": 134.6
+    },
+    {
+      "from": "PUB-C5455989",
+      "to": "PUB-458E0DA7",
+      "type": "ADJACENT_TO",
+      "distance_m": 92.6
+    },
+    {
+      "from": "PUB-C5455989",
+      "to": "WAS-8671167B",
+      "type": "ADJACENT_TO",
+      "distance_m": 99.5
+    },
+    {
+      "from": "PUB-C5455989",
+      "to": "WAS-75570639",
+      "type": "ADJACENT_TO",
+      "distance_m": 115.4
+    },
+    {
+      "from": "PUB-C5455989",
+      "to": "WAS-BBE66F72",
+      "type": "ADJACENT_TO",
+      "distance_m": 113.1
+    },
+    {
+      "from": "PUB-C5455989",
+      "to": "PUB-5C17F67B",
+      "type": "ADJACENT_TO",
+      "distance_m": 123.5
+    },
+    {
+      "from": "PUB-C5455989",
+      "to": "WAS-E3A98EBC",
+      "type": "ADJACENT_TO",
+      "distance_m": 123.8
+    },
+    {
+      "from": "PUB-C5455989",
+      "to": "WAS-B4F611FF",
+      "type": "ADJACENT_TO",
+      "distance_m": 118.3
+    },
+    {
+      "from": "PUB-3BF93B14",
+      "to": "PUB-458E0DA7",
+      "type": "ADJACENT_TO",
+      "distance_m": 113.5
+    },
+    {
+      "from": "PUB-3BF93B14",
+      "to": "WAS-BBE66F72",
+      "type": "ADJACENT_TO",
+      "distance_m": 112.0
+    },
+    {
+      "from": "PUB-3BF93B14",
+      "to": "PUB-5C17F67B",
+      "type": "ADJACENT_TO",
+      "distance_m": 138.9
+    },
+    {
+      "from": "PUB-3BF93B14",
+      "to": "WAS-E3A98EBC",
+      "type": "ADJACENT_TO",
+      "distance_m": 147.1
+    },
+    {
+      "from": "PUB-3BF93B14",
+      "to": "WAS-D664A285",
+      "type": "ADJACENT_TO",
+      "distance_m": 129.3
+    },
+    {
+      "from": "PUB-3BF93B14",
+      "to": "WAS-B4F611FF",
+      "type": "ADJACENT_TO",
+      "distance_m": 133.2
+    },
+    {
+      "from": "PAR-5EDCC3EC",
+      "to": "PUB-36252270",
+      "type": "ADJACENT_TO",
+      "distance_m": 96.1
+    },
+    {
+      "from": "PAR-5EDCC3EC",
+      "to": "PUB-B308E3CA",
+      "type": "ADJACENT_TO",
+      "distance_m": 67.1
+    },
+    {
+      "from": "PAR-5EDCC3EC",
+      "to": "PUB-91F3CB48",
+      "type": "ADJACENT_TO",
+      "distance_m": 81.4
+    },
+    {
+      "from": "PAR-5EDCC3EC",
+      "to": "WAS-DCD162F4",
+      "type": "ADJACENT_TO",
+      "distance_m": 123.5
+    },
+    {
+      "from": "PAR-5EDCC3EC",
+      "to": "WAS-44C49F7A",
+      "type": "ADJACENT_TO",
+      "distance_m": 138.2
+    },
+    {
+      "from": "PAR-5EDCC3EC",
+      "to": "WAS-38159F96",
+      "type": "ADJACENT_TO",
+      "distance_m": 145.0
+    },
+    {
+      "from": "PAR-5EDCC3EC",
+      "to": "WAS-F81F2EB9",
+      "type": "ADJACENT_TO",
+      "distance_m": 108.2
+    },
+    {
+      "from": "PUB-0506D4EA",
+      "to": "PUB-B3C3F308",
+      "type": "ADJACENT_TO",
+      "distance_m": 77.2
+    },
+    {
+      "from": "PUB-0506D4EA",
+      "to": "WAS-DCD162F4",
+      "type": "ADJACENT_TO",
+      "distance_m": 100.1
+    },
+    {
+      "from": "PUB-0506D4EA",
+      "to": "WAS-A8B2E87C",
+      "type": "ADJACENT_TO",
+      "distance_m": 149.4
+    },
+    {
+      "from": "PUB-0506D4EA",
+      "to": "WAS-7DF4843E",
+      "type": "ADJACENT_TO",
+      "distance_m": 125.3
+    },
+    {
+      "from": "PUB-0506D4EA",
+      "to": "WAS-97BE9D90",
+      "type": "ADJACENT_TO",
+      "distance_m": 114.8
+    },
+    {
+      "from": "PUB-0506D4EA",
+      "to": "WAS-44C49F7A",
+      "type": "ADJACENT_TO",
+      "distance_m": 70.1
+    },
+    {
+      "from": "PUB-0506D4EA",
+      "to": "WAS-3747C899",
+      "type": "ADJACENT_TO",
+      "distance_m": 146.4
+    },
+    {
+      "from": "PUB-0506D4EA",
+      "to": "WAS-76A70D41",
+      "type": "ADJACENT_TO",
+      "distance_m": 121.4
+    },
+    {
+      "from": "PUB-0506D4EA",
+      "to": "WAS-2E4CDD37",
+      "type": "ADJACENT_TO",
+      "distance_m": 114.7
+    },
+    {
+      "from": "PUB-0506D4EA",
+      "to": "WAS-38159F96",
+      "type": "ADJACENT_TO",
+      "distance_m": 106.4
+    },
+    {
+      "from": "PUB-0506D4EA",
+      "to": "WAS-F81F2EB9",
+      "type": "ADJACENT_TO",
+      "distance_m": 103.9
+    },
+    {
+      "from": "PUB-0506D4EA",
+      "to": "WAS-776563DD",
+      "type": "ADJACENT_TO",
+      "distance_m": 98.9
+    },
+    {
+      "from": "PUB-0506D4EA",
+      "to": "WAS-0CB9AFAF",
+      "type": "ADJACENT_TO",
+      "distance_m": 44.7
+    },
+    {
+      "from": "PUB-36252270",
+      "to": "PUB-B308E3CA",
+      "type": "ADJACENT_TO",
+      "distance_m": 111.4
+    },
+    {
+      "from": "PUB-36252270",
+      "to": "PUB-91F3CB48",
+      "type": "ADJACENT_TO",
+      "distance_m": 138.4
+    },
+    {
+      "from": "PUB-36252270",
+      "to": "WAS-8EA2C2C8",
+      "type": "ADJACENT_TO",
+      "distance_m": 138.0
+    },
+    {
+      "from": "PUB-36252270",
+      "to": "WAS-AB9A3897",
+      "type": "ADJACENT_TO",
+      "distance_m": 117.5
+    },
+    {
+      "from": "PUB-36252270",
+      "to": "PUB-5CE47E92",
+      "type": "ADJACENT_TO",
+      "distance_m": 125.7
+    },
+    {
+      "from": "PUB-36252270",
+      "to": "WAS-D131F4F8",
+      "type": "ADJACENT_TO",
+      "distance_m": 132.0
+    },
+    {
+      "from": "PUB-0AFBDD7E",
+      "to": "PUB-458E0DA7",
+      "type": "ADJACENT_TO",
+      "distance_m": 108.6
+    },
+    {
+      "from": "PUB-0AFBDD7E",
+      "to": "WAS-8671167B",
+      "type": "ADJACENT_TO",
+      "distance_m": 36.2
+    },
+    {
+      "from": "PUB-0AFBDD7E",
+      "to": "WAS-75570639",
+      "type": "ADJACENT_TO",
+      "distance_m": 43.2
+    },
+    {
+      "from": "PUB-0AFBDD7E",
+      "to": "PUB-9CB2798A",
+      "type": "ADJACENT_TO",
+      "distance_m": 106.0
+    },
+    {
+      "from": "PUB-0AFBDD7E",
+      "to": "WAS-13C64035",
+      "type": "ADJACENT_TO",
+      "distance_m": 47.5
+    },
+    {
+      "from": "PUB-CB2FE462",
+      "to": "PUB-89529325",
+      "type": "ADJACENT_TO",
+      "distance_m": 44.5
+    },
+    {
+      "from": "PUB-CB2FE462",
+      "to": "WAS-2EF5AB8F",
+      "type": "ADJACENT_TO",
+      "distance_m": 47.7
+    },
+    {
+      "from": "PUB-CB2FE462",
+      "to": "WAS-B3210778",
+      "type": "ADJACENT_TO",
+      "distance_m": 124.2
+    },
+    {
+      "from": "PUB-CB2FE462",
+      "to": "PUB-E3B66FEE",
+      "type": "ADJACENT_TO",
+      "distance_m": 124.2
+    },
+    {
+      "from": "PUB-CB2FE462",
+      "to": "PUB-26D50FC0",
+      "type": "ADJACENT_TO",
+      "distance_m": 126.0
+    },
+    {
+      "from": "PUB-CB2FE462",
+      "to": "PUB-DDB37135",
+      "type": "ADJACENT_TO",
+      "distance_m": 43.6
+    },
+    {
+      "from": "PUB-FF9CBE37",
+      "to": "PUB-1BA70932",
+      "type": "ADJACENT_TO",
+      "distance_m": 24.5
+    },
+    {
+      "from": "PUB-FF9CBE37",
+      "to": "PUB-8715C531",
+      "type": "ADJACENT_TO",
+      "distance_m": 64.0
+    },
+    {
+      "from": "PUB-FF9CBE37",
+      "to": "PUB-818FB622",
+      "type": "ADJACENT_TO",
+      "distance_m": 23.7
+    },
+    {
+      "from": "PUB-FF9CBE37",
+      "to": "PUB-CFAACE43",
+      "type": "ADJACENT_TO",
+      "distance_m": 35.5
+    },
+    {
+      "from": "PUB-FF9CBE37",
+      "to": "PUB-382E2001",
+      "type": "ADJACENT_TO",
+      "distance_m": 36.5
+    },
+    {
+      "from": "PUB-FF9CBE37",
+      "to": "PUB-14A12560",
+      "type": "ADJACENT_TO",
+      "distance_m": 65.7
+    },
+    {
+      "from": "PUB-1BA70932",
+      "to": "PUB-8715C531",
+      "type": "ADJACENT_TO",
+      "distance_m": 87.8
+    },
+    {
+      "from": "PUB-1BA70932",
+      "to": "PUB-818FB622",
+      "type": "ADJACENT_TO",
+      "distance_m": 2.0
+    },
+    {
+      "from": "PUB-1BA70932",
+      "to": "PUB-CFAACE43",
+      "type": "ADJACENT_TO",
+      "distance_m": 13.4
+    },
+    {
+      "from": "PUB-1BA70932",
+      "to": "PUB-382E2001",
+      "type": "ADJACENT_TO",
+      "distance_m": 14.7
+    },
+    {
+      "from": "PUB-1BA70932",
+      "to": "PUB-14A12560",
+      "type": "ADJACENT_TO",
+      "distance_m": 89.5
+    },
+    {
+      "from": "PUB-458E0DA7",
+      "to": "WAS-8671167B",
+      "type": "ADJACENT_TO",
+      "distance_m": 93.0
+    },
+    {
+      "from": "PUB-458E0DA7",
+      "to": "WAS-75570639",
+      "type": "ADJACENT_TO",
+      "distance_m": 122.4
+    },
+    {
+      "from": "PUB-458E0DA7",
+      "to": "WAS-13C64035",
+      "type": "ADJACENT_TO",
+      "distance_m": 147.7
+    },
+    {
+      "from": "WAS-8671167B",
+      "to": "WAS-75570639",
+      "type": "ADJACENT_TO",
+      "distance_m": 29.6
+    },
+    {
+      "from": "WAS-8671167B",
+      "to": "PUB-9CB2798A",
+      "type": "ADJACENT_TO",
+      "distance_m": 142.1
+    },
+    {
+      "from": "WAS-8671167B",
+      "to": "WAS-13C64035",
+      "type": "ADJACENT_TO",
+      "distance_m": 83.1
+    },
+    {
+      "from": "WAS-75570639",
+      "to": "PUB-9CB2798A",
+      "type": "ADJACENT_TO",
+      "distance_m": 138.2
+    },
+    {
+      "from": "WAS-75570639",
+      "to": "WAS-13C64035",
+      "type": "ADJACENT_TO",
+      "distance_m": 79.8
+    },
+    {
+      "from": "PUB-2751D35C",
+      "to": "PUB-BF1A2F26",
+      "type": "ADJACENT_TO",
+      "distance_m": 134.5
+    },
+    {
+      "from": "PUB-2751D35C",
+      "to": "PUB-DF2FEAA7",
+      "type": "ADJACENT_TO",
+      "distance_m": 137.8
+    },
+    {
+      "from": "PUB-2751D35C",
+      "to": "WAS-0C33F8FB",
+      "type": "ADJACENT_TO",
+      "distance_m": 128.1
+    },
+    {
+      "from": "PUB-2751D35C",
+      "to": "PUB-9CB2798A",
+      "type": "ADJACENT_TO",
+      "distance_m": 122.4
+    },
+    {
+      "from": "PUB-2751D35C",
+      "to": "WAS-13C64035",
+      "type": "ADJACENT_TO",
+      "distance_m": 129.9
+    },
+    {
+      "from": "PUB-3D567BD2",
+      "to": "WAS-99C97779",
+      "type": "ADJACENT_TO",
+      "distance_m": 119.4
+    },
+    {
+      "from": "PUB-3D567BD2",
+      "to": "PUB-CFC967C5",
+      "type": "ADJACENT_TO",
+      "distance_m": 132.3
+    },
+    {
+      "from": "PUB-3D567BD2",
+      "to": "WAS-F3289889",
+      "type": "ADJACENT_TO",
+      "distance_m": 140.0
+    },
+    {
+      "from": "PUB-BF1A2F26",
+      "to": "PUB-DF2FEAA7",
+      "type": "ADJACENT_TO",
+      "distance_m": 17.8
+    },
+    {
+      "from": "PUB-BF1A2F26",
+      "to": "WAS-0C33F8FB",
+      "type": "ADJACENT_TO",
+      "distance_m": 7.2
+    },
+    {
+      "from": "WAS-772C1499",
+      "to": "PUB-D4E5D804",
+      "type": "ADJACENT_TO",
+      "distance_m": 76.5
+    },
+    {
+      "from": "WAS-772C1499",
+      "to": "WAS-122BFEC1",
+      "type": "ADJACENT_TO",
+      "distance_m": 138.2
+    },
+    {
+      "from": "WAS-772C1499",
+      "to": "WAS-91D743AB",
+      "type": "ADJACENT_TO",
+      "distance_m": 147.1
+    },
+    {
+      "from": "WAS-772C1499",
+      "to": "PUB-63E9D041",
+      "type": "ADJACENT_TO",
+      "distance_m": 59.8
+    },
+    {
+      "from": "PUB-DF2FEAA7",
+      "to": "WAS-0C33F8FB",
+      "type": "ADJACENT_TO",
+      "distance_m": 17.0
+    },
+    {
+      "from": "PUB-D4E5D804",
+      "to": "WAS-C2A9B0A4",
+      "type": "ADJACENT_TO",
+      "distance_m": 89.1
+    },
+    {
+      "from": "PUB-D4E5D804",
+      "to": "PUB-5DC0EE0A",
+      "type": "ADJACENT_TO",
+      "distance_m": 149.3
+    },
+    {
+      "from": "PUB-D4E5D804",
+      "to": "WAS-A8B2E87C",
+      "type": "ADJACENT_TO",
+      "distance_m": 133.4
+    },
+    {
+      "from": "PUB-D4E5D804",
+      "to": "WAS-122BFEC1",
+      "type": "ADJACENT_TO",
+      "distance_m": 110.9
+    },
+    {
+      "from": "PUB-D4E5D804",
+      "to": "WAS-CB7DF763",
+      "type": "ADJACENT_TO",
+      "distance_m": 135.4
+    },
+    {
+      "from": "PUB-D4E5D804",
+      "to": "WAS-91D743AB",
+      "type": "ADJACENT_TO",
+      "distance_m": 128.9
+    },
+    {
+      "from": "PUB-D4E5D804",
+      "to": "WAS-48F240C5",
+      "type": "ADJACENT_TO",
+      "distance_m": 129.7
+    },
+    {
+      "from": "PUB-D4E5D804",
+      "to": "PUB-63E9D041",
+      "type": "ADJACENT_TO",
+      "distance_m": 134.9
+    },
+    {
+      "from": "PUB-B308E3CA",
+      "to": "PUB-91F3CB48",
+      "type": "ADJACENT_TO",
+      "distance_m": 27.2
+    },
+    {
+      "from": "PUB-B308E3CA",
+      "to": "WAS-DCD162F4",
+      "type": "ADJACENT_TO",
+      "distance_m": 101.6
+    },
+    {
+      "from": "PUB-B308E3CA",
+      "to": "WAS-B3210778",
+      "type": "ADJACENT_TO",
+      "distance_m": 98.9
+    },
+    {
+      "from": "PUB-B308E3CA",
+      "to": "WAS-2E4CDD37",
+      "type": "ADJACENT_TO",
+      "distance_m": 139.2
+    },
+    {
+      "from": "PUB-B308E3CA",
+      "to": "WAS-38159F96",
+      "type": "ADJACENT_TO",
+      "distance_m": 116.4
+    },
+    {
+      "from": "PUB-89529325",
+      "to": "WAS-2EF5AB8F",
+      "type": "ADJACENT_TO",
+      "distance_m": 6.5
+    },
+    {
+      "from": "PUB-89529325",
+      "to": "WAS-B3210778",
+      "type": "ADJACENT_TO",
+      "distance_m": 111.9
+    },
+    {
+      "from": "PUB-89529325",
+      "to": "PUB-E3B66FEE",
+      "type": "ADJACENT_TO",
+      "distance_m": 145.5
+    },
+    {
+      "from": "PUB-89529325",
+      "to": "PUB-26D50FC0",
+      "type": "ADJACENT_TO",
+      "distance_m": 147.7
+    },
+    {
+      "from": "PUB-89529325",
+      "to": "PUB-DDB37135",
+      "type": "ADJACENT_TO",
+      "distance_m": 28.3
+    },
+    {
+      "from": "PUB-91F3CB48",
+      "to": "WAS-DCD162F4",
+      "type": "ADJACENT_TO",
+      "distance_m": 76.8
+    },
+    {
+      "from": "PUB-91F3CB48",
+      "to": "WAS-B3210778",
+      "type": "ADJACENT_TO",
+      "distance_m": 75.8
+    },
+    {
+      "from": "PUB-91F3CB48",
+      "to": "WAS-2E4CDD37",
+      "type": "ADJACENT_TO",
+      "distance_m": 112.1
+    },
+    {
+      "from": "PUB-91F3CB48",
+      "to": "WAS-38159F96",
+      "type": "ADJACENT_TO",
+      "distance_m": 90.0
+    },
+    {
+      "from": "PUB-8715C531",
+      "to": "WAS-C2A9B0A4",
+      "type": "ADJACENT_TO",
+      "distance_m": 104.5
+    },
+    {
+      "from": "PUB-8715C531",
+      "to": "PUB-818FB622",
+      "type": "ADJACENT_TO",
+      "distance_m": 87.3
+    },
+    {
+      "from": "PUB-8715C531",
+      "to": "PUB-CFAACE43",
+      "type": "ADJACENT_TO",
+      "distance_m": 96.1
+    },
+    {
+      "from": "PUB-8715C531",
+      "to": "PUB-382E2001",
+      "type": "ADJACENT_TO",
+      "distance_m": 96.6
+    },
+    {
+      "from": "PUB-8715C531",
+      "to": "PUB-14A12560",
+      "type": "ADJACENT_TO",
+      "distance_m": 1.8
+    },
+    {
+      "from": "WAS-66BD1CC4",
+      "to": "WAS-8CD752AE",
+      "type": "ADJACENT_TO",
+      "distance_m": 18.6
+    },
+    {
+      "from": "WAS-66BD1CC4",
+      "to": "WAS-99C97779",
+      "type": "ADJACENT_TO",
+      "distance_m": 146.2
+    },
+    {
+      "from": "WAS-66BD1CC4",
+      "to": "PUB-CFC967C5",
+      "type": "ADJACENT_TO",
+      "distance_m": 142.9
+    },
+    {
+      "from": "WAS-66BD1CC4",
+      "to": "WAS-3747C899",
+      "type": "ADJACENT_TO",
+      "distance_m": 114.2
+    },
+    {
+      "from": "WAS-66BD1CC4",
+      "to": "WAS-76A70D41",
+      "type": "ADJACENT_TO",
+      "distance_m": 138.0
+    },
+    {
+      "from": "WAS-66BD1CC4",
+      "to": "WAS-F81F2EB9",
+      "type": "ADJACENT_TO",
+      "distance_m": 147.0
+    },
+    {
+      "from": "WAS-66BD1CC4",
+      "to": "DRA-1B7E2138",
+      "type": "ADJACENT_TO",
+      "distance_m": 43.5
+    },
+    {
+      "from": "WAS-66BD1CC4",
+      "to": "WAS-3E367049",
+      "type": "ADJACENT_TO",
+      "distance_m": 139.1
+    },
+    {
+      "from": "WAS-8CD752AE",
+      "to": "WAS-99C97779",
+      "type": "ADJACENT_TO",
+      "distance_m": 148.5
+    },
+    {
+      "from": "WAS-8CD752AE",
+      "to": "PUB-CFC967C5",
+      "type": "ADJACENT_TO",
+      "distance_m": 146.8
+    },
+    {
+      "from": "WAS-8CD752AE",
+      "to": "WAS-3747C899",
+      "type": "ADJACENT_TO",
+      "distance_m": 131.4
+    },
+    {
+      "from": "WAS-8CD752AE",
+      "to": "DRA-1B7E2138",
+      "type": "ADJACENT_TO",
+      "distance_m": 27.6
+    },
+    {
+      "from": "WAS-8CD752AE",
+      "to": "WAS-3E367049",
+      "type": "ADJACENT_TO",
+      "distance_m": 145.9
+    },
+    {
+      "from": "PUB-2F06A34C",
+      "to": "WAS-58C56D45",
+      "type": "ADJACENT_TO",
+      "distance_m": 105.4
+    },
+    {
+      "from": "PUB-2F06A34C",
+      "to": "WAS-96A07C5F",
+      "type": "ADJACENT_TO",
+      "distance_m": 49.7
+    },
+    {
+      "from": "PUB-2F06A34C",
+      "to": "WAS-D01DC0D3",
+      "type": "ADJACENT_TO",
+      "distance_m": 78.5
+    },
+    {
+      "from": "WAS-8EA2C2C8",
+      "to": "DRA-1B7E2138",
+      "type": "ADJACENT_TO",
+      "distance_m": 145.6
+    },
+    {
+      "from": "WAS-C2A9B0A4",
+      "to": "WAS-48F240C5",
+      "type": "ADJACENT_TO",
+      "distance_m": 114.3
+    },
+    {
+      "from": "WAS-C2A9B0A4",
+      "to": "WAS-D664A285",
+      "type": "ADJACENT_TO",
+      "distance_m": 129.4
+    },
+    {
+      "from": "WAS-C2A9B0A4",
+      "to": "PUB-14A12560",
+      "type": "ADJACENT_TO",
+      "distance_m": 103.9
+    },
+    {
+      "from": "PUB-B3C3F308",
+      "to": "PUB-5DC0EE0A",
+      "type": "ADJACENT_TO",
+      "distance_m": 132.9
+    },
+    {
+      "from": "PUB-B3C3F308",
+      "to": "WAS-DCD162F4",
+      "type": "ADJACENT_TO",
+      "distance_m": 143.4
+    },
+    {
+      "from": "PUB-B3C3F308",
+      "to": "WAS-A8B2E87C",
+      "type": "ADJACENT_TO",
+      "distance_m": 96.8
+    },
+    {
+      "from": "PUB-B3C3F308",
+      "to": "WAS-122BFEC1",
+      "type": "ADJACENT_TO",
+      "distance_m": 109.6
+    },
+    {
+      "from": "PUB-B3C3F308",
+      "to": "WAS-CB7DF763",
+      "type": "ADJACENT_TO",
+      "distance_m": 109.0
+    },
+    {
+      "from": "PUB-B3C3F308",
+      "to": "WAS-91D743AB",
+      "type": "ADJACENT_TO",
+      "distance_m": 109.5
+    },
+    {
+      "from": "PUB-B3C3F308",
+      "to": "WAS-7DF4843E",
+      "type": "ADJACENT_TO",
+      "distance_m": 72.7
+    },
+    {
+      "from": "PUB-B3C3F308",
+      "to": "WAS-BBE66F72",
+      "type": "ADJACENT_TO",
+      "distance_m": 134.8
+    },
+    {
+      "from": "PUB-B3C3F308",
+      "to": "PUB-5C17F67B",
+      "type": "ADJACENT_TO",
+      "distance_m": 138.6
+    },
+    {
+      "from": "PUB-B3C3F308",
+      "to": "WAS-48F240C5",
+      "type": "ADJACENT_TO",
+      "distance_m": 87.6
+    },
+    {
+      "from": "PUB-B3C3F308",
+      "to": "WAS-97BE9D90",
+      "type": "ADJACENT_TO",
+      "distance_m": 73.7
+    },
+    {
+      "from": "PUB-B3C3F308",
+      "to": "WAS-44C49F7A",
+      "type": "ADJACENT_TO",
+      "distance_m": 145.0
+    },
+    {
+      "from": "PUB-B3C3F308",
+      "to": "WAS-D664A285",
+      "type": "ADJACENT_TO",
+      "distance_m": 109.9
+    },
+    {
+      "from": "PUB-B3C3F308",
+      "to": "WAS-B4F611FF",
+      "type": "ADJACENT_TO",
+      "distance_m": 141.3
+    },
+    {
+      "from": "PUB-B3C3F308",
+      "to": "WAS-2E4CDD37",
+      "type": "ADJACENT_TO",
+      "distance_m": 128.9
+    },
+    {
+      "from": "PUB-B3C3F308",
+      "to": "WAS-38159F96",
+      "type": "ADJACENT_TO",
+      "distance_m": 136.9
+    },
+    {
+      "from": "PUB-B3C3F308",
+      "to": "WAS-776563DD",
+      "type": "ADJACENT_TO",
+      "distance_m": 73.5
+    },
+    {
+      "from": "PUB-B3C3F308",
+      "to": "WAS-0CB9AFAF",
+      "type": "ADJACENT_TO",
+      "distance_m": 91.4
+    },
+    {
+      "from": "PUB-5DC0EE0A",
+      "to": "WAS-DCD162F4",
+      "type": "ADJACENT_TO",
+      "distance_m": 144.4
+    },
+    {
+      "from": "PUB-5DC0EE0A",
+      "to": "WAS-A8B2E87C",
+      "type": "ADJACENT_TO",
+      "distance_m": 44.5
+    },
+    {
+      "from": "PUB-5DC0EE0A",
+      "to": "WAS-122BFEC1",
+      "type": "ADJACENT_TO",
+      "distance_m": 54.6
+    },
+    {
+      "from": "PUB-5DC0EE0A",
+      "to": "WAS-CB7DF763",
+      "type": "ADJACENT_TO",
+      "distance_m": 30.1
+    },
+    {
+      "from": "PUB-5DC0EE0A",
+      "to": "WAS-91D743AB",
+      "type": "ADJACENT_TO",
+      "distance_m": 34.9
+    },
+    {
+      "from": "PUB-5DC0EE0A",
+      "to": "WAS-7DF4843E",
+      "type": "ADJACENT_TO",
+      "distance_m": 62.0
+    },
+    {
+      "from": "PUB-5DC0EE0A",
+      "to": "WAS-48F240C5",
+      "type": "ADJACENT_TO",
+      "distance_m": 139.3
+    },
+    {
+      "from": "PUB-5DC0EE0A",
+      "to": "WAS-97BE9D90",
+      "type": "ADJACENT_TO",
+      "distance_m": 59.9
+    },
+    {
+      "from": "PUB-5DC0EE0A",
+      "to": "WAS-B3210778",
+      "type": "ADJACENT_TO",
+      "distance_m": 146.3
+    },
+    {
+      "from": "PUB-5DC0EE0A",
+      "to": "WAS-2E4CDD37",
+      "type": "ADJACENT_TO",
+      "distance_m": 95.8
+    },
+    {
+      "from": "PUB-5DC0EE0A",
+      "to": "WAS-38159F96",
+      "type": "ADJACENT_TO",
+      "distance_m": 122.3
+    },
+    {
+      "from": "PUB-5DC0EE0A",
+      "to": "PUB-E3B66FEE",
+      "type": "ADJACENT_TO",
+      "distance_m": 72.2
+    },
+    {
+      "from": "PUB-5DC0EE0A",
+      "to": "PUB-26D50FC0",
+      "type": "ADJACENT_TO",
+      "distance_m": 70.3
+    },
+    {
+      "from": "WAS-DCD162F4",
+      "to": "WAS-7DF4843E",
+      "type": "ADJACENT_TO",
+      "distance_m": 138.8
+    },
+    {
+      "from": "WAS-DCD162F4",
+      "to": "WAS-97BE9D90",
+      "type": "ADJACENT_TO",
+      "distance_m": 120.7
+    },
+    {
+      "from": "WAS-DCD162F4",
+      "to": "WAS-44C49F7A",
+      "type": "ADJACENT_TO",
+      "distance_m": 124.9
+    },
+    {
+      "from": "WAS-DCD162F4",
+      "to": "WAS-B3210778",
+      "type": "ADJACENT_TO",
+      "distance_m": 81.1
+    },
+    {
+      "from": "WAS-DCD162F4",
+      "to": "WAS-2E4CDD37",
+      "type": "ADJACENT_TO",
+      "distance_m": 49.3
+    },
+    {
+      "from": "WAS-DCD162F4",
+      "to": "WAS-38159F96",
+      "type": "ADJACENT_TO",
+      "distance_m": 22.9
+    },
+    {
+      "from": "WAS-DCD162F4",
+      "to": "PUB-E3B66FEE",
+      "type": "ADJACENT_TO",
+      "distance_m": 134.9
+    },
+    {
+      "from": "WAS-DCD162F4",
+      "to": "PUB-26D50FC0",
+      "type": "ADJACENT_TO",
+      "distance_m": 136.5
+    },
+    {
+      "from": "WAS-DCD162F4",
+      "to": "WAS-F81F2EB9",
+      "type": "ADJACENT_TO",
+      "distance_m": 130.8
+    },
+    {
+      "from": "WAS-DCD162F4",
+      "to": "WAS-0CB9AFAF",
+      "type": "ADJACENT_TO",
+      "distance_m": 142.9
+    },
+    {
+      "from": "WAS-A8B2E87C",
+      "to": "WAS-122BFEC1",
+      "type": "ADJACENT_TO",
+      "distance_m": 22.6
+    },
+    {
+      "from": "WAS-A8B2E87C",
+      "to": "WAS-CB7DF763",
+      "type": "ADJACENT_TO",
+      "distance_m": 14.6
+    },
+    {
+      "from": "WAS-A8B2E87C",
+      "to": "WAS-91D743AB",
+      "type": "ADJACENT_TO",
+      "distance_m": 12.8
+    },
+    {
+      "from": "WAS-A8B2E87C",
+      "to": "WAS-7DF4843E",
+      "type": "ADJACENT_TO",
+      "distance_m": 25.0
+    },
+    {
+      "from": "WAS-A8B2E87C",
+      "to": "WAS-48F240C5",
+      "type": "ADJACENT_TO",
+      "distance_m": 95.3
+    },
+    {
+      "from": "WAS-A8B2E87C",
+      "to": "WAS-97BE9D90",
+      "type": "ADJACENT_TO",
+      "distance_m": 36.0
+    },
+    {
+      "from": "WAS-A8B2E87C",
+      "to": "WAS-2E4CDD37",
+      "type": "ADJACENT_TO",
+      "distance_m": 110.0
+    },
+    {
+      "from": "WAS-A8B2E87C",
+      "to": "WAS-38159F96",
+      "type": "ADJACENT_TO",
+      "distance_m": 133.5
+    },
+    {
+      "from": "WAS-A8B2E87C",
+      "to": "PUB-E3B66FEE",
+      "type": "ADJACENT_TO",
+      "distance_m": 115.0
+    },
+    {
+      "from": "WAS-A8B2E87C",
+      "to": "PUB-26D50FC0",
+      "type": "ADJACENT_TO",
+      "distance_m": 113.4
+    },
+    {
+      "from": "WAS-122BFEC1",
+      "to": "WAS-CB7DF763",
+      "type": "ADJACENT_TO",
+      "distance_m": 28.2
+    },
+    {
+      "from": "WAS-122BFEC1",
+      "to": "WAS-91D743AB",
+      "type": "ADJACENT_TO",
+      "distance_m": 21.5
+    },
+    {
+      "from": "WAS-122BFEC1",
+      "to": "WAS-7DF4843E",
+      "type": "ADJACENT_TO",
+      "distance_m": 43.5
+    },
+    {
+      "from": "WAS-122BFEC1",
+      "to": "WAS-48F240C5",
+      "type": "ADJACENT_TO",
+      "distance_m": 88.1
+    },
+    {
+      "from": "WAS-122BFEC1",
+      "to": "WAS-97BE9D90",
+      "type": "ADJACENT_TO",
+      "distance_m": 57.8
+    },
+    {
+      "from": "WAS-122BFEC1",
+      "to": "WAS-D664A285",
+      "type": "ADJACENT_TO",
+      "distance_m": 149.0
+    },
+    {
+      "from": "WAS-122BFEC1",
+      "to": "WAS-2E4CDD37",
+      "type": "ADJACENT_TO",
+      "distance_m": 131.8
+    },
+    {
+      "from": "WAS-122BFEC1",
+      "to": "PUB-E3B66FEE",
+      "type": "ADJACENT_TO",
+      "distance_m": 126.8
+    },
+    {
+      "from": "WAS-122BFEC1",
+      "to": "PUB-26D50FC0",
+      "type": "ADJACENT_TO",
+      "distance_m": 124.8
+    },
+    {
+      "from": "WAS-CB7DF763",
+      "to": "WAS-91D743AB",
+      "type": "ADJACENT_TO",
+      "distance_m": 6.9
+    },
+    {
+      "from": "WAS-CB7DF763",
+      "to": "WAS-7DF4843E",
+      "type": "ADJACENT_TO",
+      "distance_m": 36.3
+    },
+    {
+      "from": "WAS-CB7DF763",
+      "to": "WAS-48F240C5",
+      "type": "ADJACENT_TO",
+      "distance_m": 109.2
+    },
+    {
+      "from": "WAS-CB7DF763",
+      "to": "WAS-97BE9D90",
+      "type": "ADJACENT_TO",
+      "distance_m": 41.9
+    },
+    {
+      "from": "WAS-CB7DF763",
+      "to": "WAS-2E4CDD37",
+      "type": "ADJACENT_TO",
+      "distance_m": 105.3
+    },
+    {
+      "from": "WAS-CB7DF763",
+      "to": "WAS-38159F96",
+      "type": "ADJACENT_TO",
+      "distance_m": 130.1
+    },
+    {
+      "from": "WAS-CB7DF763",
+      "to": "PUB-E3B66FEE",
+      "type": "ADJACENT_TO",
+      "distance_m": 101.4
+    },
+    {
+      "from": "WAS-CB7DF763",
+      "to": "PUB-26D50FC0",
+      "type": "ADJACENT_TO",
+      "distance_m": 99.7
+    },
+    {
+      "from": "WAS-91D743AB",
+      "to": "WAS-7DF4843E",
+      "type": "ADJACENT_TO",
+      "distance_m": 37.3
+    },
+    {
+      "from": "WAS-91D743AB",
+      "to": "WAS-48F240C5",
+      "type": "ADJACENT_TO",
+      "distance_m": 104.5
+    },
+    {
+      "from": "WAS-91D743AB",
+      "to": "WAS-97BE9D90",
+      "type": "ADJACENT_TO",
+      "distance_m": 45.5
+    },
+    {
+      "from": "WAS-91D743AB",
+      "to": "WAS-2E4CDD37",
+      "type": "ADJACENT_TO",
+      "distance_m": 112.0
+    },
+    {
+      "from": "WAS-91D743AB",
+      "to": "WAS-38159F96",
+      "type": "ADJACENT_TO",
+      "distance_m": 136.6
+    },
+    {
+      "from": "WAS-91D743AB",
+      "to": "PUB-E3B66FEE",
+      "type": "ADJACENT_TO",
+      "distance_m": 106.9
+    },
+    {
+      "from": "WAS-91D743AB",
+      "to": "PUB-26D50FC0",
+      "type": "ADJACENT_TO",
+      "distance_m": 105.1
+    },
+    {
+      "from": "WAS-7DF4843E",
+      "to": "WAS-48F240C5",
+      "type": "ADJACENT_TO",
+      "distance_m": 88.8
+    },
+    {
+      "from": "WAS-7DF4843E",
+      "to": "WAS-97BE9D90",
+      "type": "ADJACENT_TO",
+      "distance_m": 18.3
+    },
+    {
+      "from": "WAS-7DF4843E",
+      "to": "WAS-D664A285",
+      "type": "ADJACENT_TO",
+      "distance_m": 142.3
+    },
+    {
+      "from": "WAS-7DF4843E",
+      "to": "WAS-2E4CDD37",
+      "type": "ADJACENT_TO",
+      "distance_m": 101.4
+    },
+    {
+      "from": "WAS-7DF4843E",
+      "to": "WAS-38159F96",
+      "type": "ADJACENT_TO",
+      "distance_m": 121.9
+    },
+    {
+      "from": "WAS-7DF4843E",
+      "to": "PUB-E3B66FEE",
+      "type": "ADJACENT_TO",
+      "distance_m": 126.2
+    },
+    {
+      "from": "WAS-7DF4843E",
+      "to": "PUB-26D50FC0",
+      "type": "ADJACENT_TO",
+      "distance_m": 125.0
+    },
+    {
+      "from": "WAS-7DF4843E",
+      "to": "WAS-776563DD",
+      "type": "ADJACENT_TO",
+      "distance_m": 144.9
+    },
+    {
+      "from": "WAS-BBE66F72",
+      "to": "PUB-5C17F67B",
+      "type": "ADJACENT_TO",
+      "distance_m": 37.9
+    },
+    {
+      "from": "WAS-BBE66F72",
+      "to": "WAS-E3A98EBC",
+      "type": "ADJACENT_TO",
+      "distance_m": 54.9
+    },
+    {
+      "from": "WAS-BBE66F72",
+      "to": "WAS-48F240C5",
+      "type": "ADJACENT_TO",
+      "distance_m": 122.1
+    },
+    {
+      "from": "WAS-BBE66F72",
+      "to": "WAS-D664A285",
+      "type": "ADJACENT_TO",
+      "distance_m": 64.9
+    },
+    {
+      "from": "WAS-BBE66F72",
+      "to": "WAS-B4F611FF",
+      "type": "ADJACENT_TO",
+      "distance_m": 33.8
+    },
+    {
+      "from": "WAS-BBE66F72",
+      "to": "WAS-776563DD",
+      "type": "ADJACENT_TO",
+      "distance_m": 86.5
+    },
+    {
+      "from": "PUB-5C17F67B",
+      "to": "WAS-E3A98EBC",
+      "type": "ADJACENT_TO",
+      "distance_m": 18.4
+    },
+    {
+      "from": "PUB-5C17F67B",
+      "to": "WAS-48F240C5",
+      "type": "ADJACENT_TO",
+      "distance_m": 148.1
+    },
+    {
+      "from": "PUB-5C17F67B",
+      "to": "WAS-D664A285",
+      "type": "ADJACENT_TO",
+      "distance_m": 97.5
+    },
+    {
+      "from": "PUB-5C17F67B",
+      "to": "WAS-B4F611FF",
+      "type": "ADJACENT_TO",
+      "distance_m": 5.7
+    },
+    {
+      "from": "PUB-5C17F67B",
+      "to": "WAS-776563DD",
+      "type": "ADJACENT_TO",
+      "distance_m": 73.8
+    },
+    {
+      "from": "PUB-5C17F67B",
+      "to": "WAS-0CB9AFAF",
+      "type": "ADJACENT_TO",
+      "distance_m": 141.3
+    },
+    {
+      "from": "WAS-E3A98EBC",
+      "to": "WAS-D664A285",
+      "type": "ADJACENT_TO",
+      "distance_m": 115.8
+    },
+    {
+      "from": "WAS-E3A98EBC",
+      "to": "WAS-B4F611FF",
+      "type": "ADJACENT_TO",
+      "distance_m": 21.1
+    },
+    {
+      "from": "WAS-E3A98EBC",
+      "to": "WAS-776563DD",
+      "type": "ADJACENT_TO",
+      "distance_m": 82.3
+    },
+    {
+      "from": "WAS-E3A98EBC",
+      "to": "WAS-0CB9AFAF",
+      "type": "ADJACENT_TO",
+      "distance_m": 143.4
+    },
+    {
+      "from": "WAS-E3A98EBC",
+      "to": "WAS-474181C3",
+      "type": "ADJACENT_TO",
+      "distance_m": 145.6
+    },
+    {
+      "from": "WAS-48F240C5",
+      "to": "WAS-97BE9D90",
+      "type": "ADJACENT_TO",
+      "distance_m": 105.1
+    },
+    {
+      "from": "WAS-48F240C5",
+      "to": "WAS-D664A285",
+      "type": "ADJACENT_TO",
+      "distance_m": 61.4
+    },
+    {
+      "from": "WAS-48F240C5",
+      "to": "WAS-B4F611FF",
+      "type": "ADJACENT_TO",
+      "distance_m": 147.4
+    },
+    {
+      "from": "WAS-48F240C5",
+      "to": "WAS-776563DD",
+      "type": "ADJACENT_TO",
+      "distance_m": 122.0
+    },
+    {
+      "from": "WAS-97BE9D90",
+      "to": "WAS-2E4CDD37",
+      "type": "ADJACENT_TO",
+      "distance_m": 83.3
+    },
+    {
+      "from": "WAS-97BE9D90",
+      "to": "WAS-38159F96",
+      "type": "ADJACENT_TO",
+      "distance_m": 103.6
+    },
+    {
+      "from": "WAS-97BE9D90",
+      "to": "PUB-E3B66FEE",
+      "type": "ADJACENT_TO",
+      "distance_m": 116.3
+    },
+    {
+      "from": "WAS-97BE9D90",
+      "to": "PUB-26D50FC0",
+      "type": "ADJACENT_TO",
+      "distance_m": 115.4
+    },
+    {
+      "from": "WAS-97BE9D90",
+      "to": "WAS-776563DD",
+      "type": "ADJACENT_TO",
+      "distance_m": 147.2
+    },
+    {
+      "from": "WAS-97BE9D90",
+      "to": "WAS-0CB9AFAF",
+      "type": "ADJACENT_TO",
+      "distance_m": 148.8
+    },
+    {
+      "from": "WAS-44C49F7A",
+      "to": "WAS-3747C899",
+      "type": "ADJACENT_TO",
+      "distance_m": 90.5
+    },
+    {
+      "from": "WAS-44C49F7A",
+      "to": "WAS-76A70D41",
+      "type": "ADJACENT_TO",
+      "distance_m": 71.7
+    },
+    {
+      "from": "WAS-44C49F7A",
+      "to": "WAS-38159F96",
+      "type": "ADJACENT_TO",
+      "distance_m": 141.7
+    },
+    {
+      "from": "WAS-44C49F7A",
+      "to": "WAS-F81F2EB9",
+      "type": "ADJACENT_TO",
+      "distance_m": 39.0
+    },
+    {
+      "from": "WAS-44C49F7A",
+      "to": "WAS-776563DD",
+      "type": "ADJACENT_TO",
+      "distance_m": 141.4
+    },
+    {
+      "from": "WAS-44C49F7A",
+      "to": "WAS-0CB9AFAF",
+      "type": "ADJACENT_TO",
+      "distance_m": 66.6
+    },
+    {
+      "from": "WAS-44C49F7A",
+      "to": "WAS-474181C3",
+      "type": "ADJACENT_TO",
+      "distance_m": 144.3
+    },
+    {
+      "from": "WAS-D664A285",
+      "to": "WAS-B4F611FF",
+      "type": "ADJACENT_TO",
+      "distance_m": 95.3
+    },
+    {
+      "from": "WAS-D664A285",
+      "to": "WAS-776563DD",
+      "type": "ADJACENT_TO",
+      "distance_m": 102.2
+    },
+    {
+      "from": "WAS-B4F611FF",
+      "to": "WAS-776563DD",
+      "type": "ADJACENT_TO",
+      "distance_m": 78.0
+    },
+    {
+      "from": "WAS-B4F611FF",
+      "to": "WAS-0CB9AFAF",
+      "type": "ADJACENT_TO",
+      "distance_m": 146.5
+    },
+    {
+      "from": "PUB-9CB2798A",
+      "to": "WAS-13C64035",
+      "type": "ADJACENT_TO",
+      "distance_m": 59.3
+    },
+    {
+      "from": "WAS-2EF5AB8F",
+      "to": "WAS-B3210778",
+      "type": "ADJACENT_TO",
+      "distance_m": 105.9
+    },
+    {
+      "from": "WAS-2EF5AB8F",
+      "to": "PUB-E3B66FEE",
+      "type": "ADJACENT_TO",
+      "distance_m": 142.6
+    },
+    {
+      "from": "WAS-2EF5AB8F",
+      "to": "PUB-26D50FC0",
+      "type": "ADJACENT_TO",
+      "distance_m": 144.9
+    },
+    {
+      "from": "WAS-2EF5AB8F",
+      "to": "PUB-DDB37135",
+      "type": "ADJACENT_TO",
+      "distance_m": 34.7
+    },
+    {
+      "from": "WAS-B3210778",
+      "to": "WAS-2E4CDD37",
+      "type": "ADJACENT_TO",
+      "distance_m": 76.7
+    },
+    {
+      "from": "WAS-B3210778",
+      "to": "WAS-38159F96",
+      "type": "ADJACENT_TO",
+      "distance_m": 72.9
+    },
+    {
+      "from": "WAS-B3210778",
+      "to": "PUB-E3B66FEE",
+      "type": "ADJACENT_TO",
+      "distance_m": 97.0
+    },
+    {
+      "from": "WAS-B3210778",
+      "to": "PUB-26D50FC0",
+      "type": "ADJACENT_TO",
+      "distance_m": 99.6
+    },
+    {
+      "from": "WAS-B3210778",
+      "to": "PUB-DDB37135",
+      "type": "ADJACENT_TO",
+      "distance_m": 139.4
+    },
+    {
+      "from": "WAS-AB9A3897",
+      "to": "PUB-5CE47E92",
+      "type": "ADJACENT_TO",
+      "distance_m": 11.9
+    },
+    {
+      "from": "WAS-AB9A3897",
+      "to": "WAS-D131F4F8",
+      "type": "ADJACENT_TO",
+      "distance_m": 31.1
+    },
+    {
+      "from": "PUB-5CE47E92",
+      "to": "WAS-D131F4F8",
+      "type": "ADJACENT_TO",
+      "distance_m": 20.3
+    },
+    {
+      "from": "WAS-58C56D45",
+      "to": "WAS-96A07C5F",
+      "type": "ADJACENT_TO",
+      "distance_m": 74.2
+    },
+    {
+      "from": "WAS-58C56D45",
+      "to": "WAS-D01DC0D3",
+      "type": "ADJACENT_TO",
+      "distance_m": 53.4
+    },
+    {
+      "from": "WAS-96A07C5F",
+      "to": "WAS-D01DC0D3",
+      "type": "ADJACENT_TO",
+      "distance_m": 30.8
+    },
+    {
+      "from": "WAS-99C97779",
+      "to": "PUB-CFC967C5",
+      "type": "ADJACENT_TO",
+      "distance_m": 12.9
+    },
+    {
+      "from": "WAS-99C97779",
+      "to": "WAS-3747C899",
+      "type": "ADJACENT_TO",
+      "distance_m": 138.9
+    },
+    {
+      "from": "WAS-99C97779",
+      "to": "WAS-474181C3",
+      "type": "ADJACENT_TO",
+      "distance_m": 118.2
+    },
+    {
+      "from": "WAS-99C97779",
+      "to": "WAS-3E367049",
+      "type": "ADJACENT_TO",
+      "distance_m": 36.0
+    },
+    {
+      "from": "PUB-CFC967C5",
+      "to": "WAS-3747C899",
+      "type": "ADJACENT_TO",
+      "distance_m": 127.3
+    },
+    {
+      "from": "PUB-CFC967C5",
+      "to": "WAS-76A70D41",
+      "type": "ADJACENT_TO",
+      "distance_m": 147.7
+    },
+    {
+      "from": "PUB-CFC967C5",
+      "to": "WAS-474181C3",
+      "type": "ADJACENT_TO",
+      "distance_m": 105.4
+    },
+    {
+      "from": "PUB-CFC967C5",
+      "to": "WAS-3E367049",
+      "type": "ADJACENT_TO",
+      "distance_m": 23.1
+    },
+    {
+      "from": "WAS-3747C899",
+      "to": "WAS-76A70D41",
+      "type": "ADJACENT_TO",
+      "distance_m": 26.5
+    },
+    {
+      "from": "WAS-3747C899",
+      "to": "WAS-F81F2EB9",
+      "type": "ADJACENT_TO",
+      "distance_m": 95.8
+    },
+    {
+      "from": "WAS-3747C899",
+      "to": "WAS-0CB9AFAF",
+      "type": "ADJACENT_TO",
+      "distance_m": 115.1
+    },
+    {
+      "from": "WAS-3747C899",
+      "to": "WAS-474181C3",
+      "type": "ADJACENT_TO",
+      "distance_m": 76.3
+    },
+    {
+      "from": "WAS-3747C899",
+      "to": "WAS-3E367049",
+      "type": "ADJACENT_TO",
+      "distance_m": 107.2
+    },
+    {
+      "from": "WAS-76A70D41",
+      "to": "WAS-F81F2EB9",
+      "type": "ADJACENT_TO",
+      "distance_m": 86.8
+    },
+    {
+      "from": "WAS-76A70D41",
+      "to": "WAS-776563DD",
+      "type": "ADJACENT_TO",
+      "distance_m": 144.2
+    },
+    {
+      "from": "WAS-76A70D41",
+      "to": "WAS-0CB9AFAF",
+      "type": "ADJACENT_TO",
+      "distance_m": 88.7
+    },
+    {
+      "from": "WAS-76A70D41",
+      "to": "WAS-474181C3",
+      "type": "ADJACENT_TO",
+      "distance_m": 76.7
+    },
+    {
+      "from": "WAS-76A70D41",
+      "to": "WAS-3E367049",
+      "type": "ADJACENT_TO",
+      "distance_m": 126.2
+    },
+    {
+      "from": "WAS-2E4CDD37",
+      "to": "WAS-38159F96",
+      "type": "ADJACENT_TO",
+      "distance_m": 26.6
+    },
+    {
+      "from": "WAS-2E4CDD37",
+      "to": "PUB-E3B66FEE",
+      "type": "ADJACENT_TO",
+      "distance_m": 90.9
+    },
+    {
+      "from": "WAS-2E4CDD37",
+      "to": "PUB-26D50FC0",
+      "type": "ADJACENT_TO",
+      "distance_m": 92.0
+    },
+    {
+      "from": "WAS-38159F96",
+      "to": "PUB-E3B66FEE",
+      "type": "ADJACENT_TO",
+      "distance_m": 113.1
+    },
+    {
+      "from": "WAS-38159F96",
+      "to": "PUB-26D50FC0",
+      "type": "ADJACENT_TO",
+      "distance_m": 114.6
+    },
+    {
+      "from": "PUB-E3B66FEE",
+      "to": "PUB-26D50FC0",
+      "type": "ADJACENT_TO",
+      "distance_m": 2.7
+    },
+    {
+      "from": "WAS-F81F2EB9",
+      "to": "WAS-0CB9AFAF",
+      "type": "ADJACENT_TO",
+      "distance_m": 105.5
+    },
+    {
+      "from": "PUB-3EDEBCD6",
+      "to": "PUB-404EAF90",
+      "type": "ADJACENT_TO",
+      "distance_m": 2.7
+    },
+    {
+      "from": "PUB-818FB622",
+      "to": "PUB-CFAACE43",
+      "type": "ADJACENT_TO",
+      "distance_m": 15.3
+    },
+    {
+      "from": "PUB-818FB622",
+      "to": "PUB-382E2001",
+      "type": "ADJACENT_TO",
+      "distance_m": 16.6
+    },
+    {
+      "from": "PUB-818FB622",
+      "to": "PUB-14A12560",
+      "type": "ADJACENT_TO",
+      "distance_m": 88.9
+    },
+    {
+      "from": "PUB-CFAACE43",
+      "to": "PUB-382E2001",
+      "type": "ADJACENT_TO",
+      "distance_m": 1.4
+    },
+    {
+      "from": "PUB-CFAACE43",
+      "to": "PUB-14A12560",
+      "type": "ADJACENT_TO",
+      "distance_m": 97.6
+    },
+    {
+      "from": "PUB-382E2001",
+      "to": "PUB-14A12560",
+      "type": "ADJACENT_TO",
+      "distance_m": 98.2
+    },
+    {
+      "from": "WAS-776563DD",
+      "to": "WAS-0CB9AFAF",
+      "type": "ADJACENT_TO",
+      "distance_m": 75.0
+    },
+    {
+      "from": "WAS-0CB9AFAF",
+      "to": "WAS-474181C3",
+      "type": "ADJACENT_TO",
+      "distance_m": 131.6
+    },
+    {
+      "from": "WAS-474181C3",
+      "to": "WAS-3E367049",
+      "type": "ADJACENT_TO",
+      "distance_m": 82.8
+    }
+  ],
+  "meta": {
+    "zones": [
+      "inner_circle",
+      "middle_circle",
+      "outer_circle"
+    ],
+    "node_types": [
+      "PublicToilet",
+      "ParkingZone",
+      "WastePoint",
+      "DrainNode",
+      "Transformer"
+    ],
+    "health_score_range": "0-100",
+    "default_health": 85
+  }
+}

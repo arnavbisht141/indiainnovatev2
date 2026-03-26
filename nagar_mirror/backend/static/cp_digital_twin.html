@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NagarMirror — Connaught Place Digital Twin</title>
+
+<!-- Leaflet (real OpenStreetMap tiles, no API key needed) -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 100%; height: 100%; background: #0a0f1e; font-family: 'Inter', sans-serif; overflow: hidden; }
+
+  #map { width: 100%; height: 100%; }
+
+  /* ── HUD overlay ─────────────────────────────────────────────────── */
+  #hud {
+    position: absolute; top: 14px; left: 14px; z-index: 1000;
+    background: rgba(8,14,32,0.85); backdrop-filter: blur(14px);
+    border: 1px solid rgba(99,179,237,0.25); border-radius: 12px;
+    padding: 14px 18px; color: #e2e8f0; min-width: 210px;
+  }
+  #hud .brand { font-size: 10px; letter-spacing: 2px; color: #63b3ed; text-transform: uppercase; }
+  #hud h2    { font-size: 17px; font-weight: 700; margin: 2px 0 0; }
+  #hud .sub  { font-size: 11px; color: #94a3b8; margin-top: 2px; }
+
+  /* ── Legend ─────────────────────────────────────────────────────── */
+  #legend {
+    position: absolute; top: 14px; right: 14px; z-index: 1000;
+    background: rgba(8,14,32,0.85); backdrop-filter: blur(14px);
+    border: 1px solid rgba(99,179,237,0.25); border-radius: 12px;
+    padding: 14px 18px; color: #e2e8f0; min-width: 170px;
+  }
+  #legend h4 { font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; color: #63b3ed; margin-bottom: 8px; }
+  .leg-item  { display: flex; align-items: center; gap: 8px; font-size: 12px; margin-bottom: 5px; }
+  .leg-dot   { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+
+  /* ── Stats bar ──────────────────────────────────────────────────── */
+  #stats {
+    position: absolute; bottom: 14px; left: 14px; z-index: 1000;
+    display: flex; gap: 10px;
+  }
+  .stat-pill {
+    background: rgba(8,14,32,0.85); backdrop-filter: blur(14px);
+    border: 1px solid rgba(99,179,237,0.2); border-radius: 999px;
+    padding: 6px 14px; color: #e2e8f0; font-size: 12px; white-space: nowrap;
+  }
+  .stat-pill strong { color: #63b3ed; }
+
+  /* ── Cascade alert ──────────────────────────────────────────────── */
+  #cascade-alert {
+    position: absolute; bottom: 50px; right: 14px; z-index: 1000;
+    background: rgba(220,38,38,0.15); backdrop-filter: blur(14px);
+    border: 1px solid rgba(220,38,38,0.5); border-radius: 10px;
+    padding: 10px 16px; color: #fca5a5; font-size: 12px; max-width: 200px;
+    display: none;
+  }
+  #cascade-alert .title { font-weight: 700; font-size: 13px; color: #ef4444; }
+
+  /* ── Tooltip ─────────────────────────────────────────────────────── */
+  .info-tooltip {
+    background: rgba(8,14,32,0.95); border: 1px solid rgba(99,179,237,0.3);
+    border-radius: 10px; padding: 12px 14px; color: #e2e8f0; font-size: 12px;
+    min-width: 200px; line-height: 1.6;
+  }
+  .info-tooltip .tt-name   { font-size: 14px; font-weight: 700; color: #63b3ed; }
+  .info-tooltip .tt-type   { text-transform: uppercase; font-size: 10px; letter-spacing: 1px; color: #94a3b8; }
+  .info-tooltip .tt-row    { display: flex; justify-content: space-between; gap: 10px; }
+  .info-tooltip .tt-label  { color: #94a3b8; }
+  .info-tooltip .tt-val    { font-weight: 600; }
+  .health-bar-bg { background: #1e293b; border-radius: 4px; height: 6px; margin: 6px 0 10px; overflow: hidden; }
+  .health-bar    { height: 100%; border-radius: 4px; transition: width 0.4s; }
+
+  /* ── Loading spinner ────────────────────────────────────────────── */
+  #loader {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+    z-index: 2000; text-align: center; color: #63b3ed;
+  }
+  #loader .spinner {
+    width: 44px; height: 44px; border: 3px solid rgba(99,179,237,0.2);
+    border-top-color: #63b3ed; border-radius: 50%;
+    animation: spin 0.8s linear infinite; margin: 0 auto 12px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* Leaflet dark-mode filter */
+  .leaflet-tile-pane { filter: brightness(0.45) saturate(0.3) hue-rotate(195deg); }
+  .leaflet-container { background: #080e1a; }
+</style>
+</head>
+<body>
+
+<div id="loader">
+  <div class="spinner"></div>
+  <div style="font-size:13px; letter-spacing:1px;">Loading graph data…</div>
+</div>
+
+<div id="map"></div>
+
+<!-- HUD -->
+<div id="hud">
+  <div class="brand">NagarMirror — City Twin</div>
+  <h2>Connaught Place</h2>
+  <div class="sub" id="node-count">Loading nodes…</div>
+</div>
+
+<!-- Legend -->
+<div id="legend">
+  <h4>Health Status</h4>
+  <div class="leg-item"><div class="leg-dot" style="background:#ef4444; box-shadow:0 0 8px #ef4444;"></div> Critical (&lt;40)</div>
+  <div class="leg-item"><div class="leg-dot" style="background:#f59e0b; box-shadow:0 0 8px #f59e0b;"></div> Warning (40–69)</div>
+  <div class="leg-item"><div class="leg-dot" style="background:#10b981; box-shadow:0 0 8px #10b981;"></div> Healthy (≥70)</div>
+  <hr style="border-color:rgba(99,179,237,0.15); margin:10px 0;"/>
+  <h4 style="margin-bottom:8px;">Node Types</h4>
+  <div class="leg-item"><span style="font-size:14px;">🏗️</span> Infrastructure</div>
+  <div class="leg-item"><span style="font-size:14px;">🚇</span> Metro Station</div>
+  <div class="leg-item"><span style="font-size:14px;">🏙️</span> Zone</div>
+</div>
+
+<!-- Stats bar -->
+<div id="stats">
+  <div class="stat-pill">Total: <strong id="s-total">—</strong></div>
+  <div class="stat-pill">🔴 Critical: <strong id="s-crit">—</strong></div>
+  <div class="stat-pill">🟡 Warning: <strong id="s-warn">—</strong></div>
+  <div class="stat-pill">🟢 Healthy: <strong id="s-hlth">—</strong></div>
+  <div class="stat-pill">Avg Health: <strong id="s-avg">—</strong></div>
+</div>
+
+<!-- Cascade alert -->
+<div id="cascade-alert">
+  <div class="title">⚡ Cascade active</div>
+  <div id="cascade-msg">— nodes at risk</div>
+</div>
+
+<script>
+// ── Config ────────────────────────────────────────────────────────────────
+const API_BASE = window.location.origin.includes('localhost') || window.location.origin.includes('5174') || window.location.origin.includes('8000')
+  ? '' 
+  : 'https://nagar-mirror.vercel.app';
+
+const CP_CENTER  = [28.6315, 77.2167];
+const ZOOM       = 15;
+
+// Metro stations (always shown as anchors)
+const METRO_ANCHORS = [
+  { id: 'metro_rajiv',       name: 'Rajiv Chowk',      line: 'Blue/Yellow', lat: 28.6328, lng: 77.2197, footfall: 350000 },
+  { id: 'metro_barakhamba',  name: 'Barakhamba Road',   line: 'Blue',        lat: 28.6342, lng: 77.2237, footfall: 125000 },
+  { id: 'metro_patel_chowk', name: 'Patel Chowk',       line: 'Yellow',      lat: 28.6260, lng: 77.2180, footfall: 95000  },
+];
+
+// ── Map init ──────────────────────────────────────────────────────────────
+const map = L.map('map', {
+  center: CP_CENTER, zoom: ZOOM,
+  zoomControl: false, attributionControl: false,
+});
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+}).addTo(map);
+L.control.zoom({ position: 'bottomleft' }).addTo(map);
+L.control.attribution({ position: 'bottomright', prefix: '© OpenStreetMap' }).addTo(map);
+
+// ── Colour helpers ────────────────────────────────────────────────────────
+function healthColour(score) {
+  if (score < 40) return '#ef4444';
+  if (score < 70) return '#f59e0b';
+  return '#10b981';
+}
+
+function healthLabel(score) {
+  if (score < 40) return 'Critical';
+  if (score < 70) return 'Warning';
+  return 'Healthy';
+}
+
+function typeEmoji(type) {
+  const map = {
+    drain: '🌊', road: '🛣️', transformer: '⚡', water_main: '💧',
+    toilet: '🚻', park: '🌳', garbage_zone: '🗑️',
+  };
+  return map[type] || '🏗️';
+}
+
+// ── Custom circle marker factory ──────────────────────────────────────────
+function makeMarker(lat, lng, score, size = 10) {
+  const colour = healthColour(score);
+  return L.circleMarker([lat, lng], {
+    radius: size,
+    fillColor: colour,
+    color: colour,
+    weight: 1.5,
+    opacity: 0.9,
+    fillOpacity: 0.75,
+  });
+}
+
+// ── Tooltip builder ───────────────────────────────────────────────────────
+function buildTooltip(node) {
+  const colour = healthColour(node.health_score);
+  const barPct = node.health_score + '%';
+  return `
+    <div class="info-tooltip">
+      <div class="tt-type">${typeEmoji(node.type)} ${(node.type || '').replace(/_/g,' ')}</div>
+      <div class="tt-name">${node.name}</div>
+      <div class="health-bar-bg"><div class="health-bar" style="width:${barPct};background:${colour};"></div></div>
+      <div class="tt-row"><span class="tt-label">Health</span><span class="tt-val" style="color:${colour}">${node.health_score}/100 (${healthLabel(node.health_score)})</span></div>
+      <div class="tt-row"><span class="tt-label">Age</span><span class="tt-val">${node.age_years ?? '—'} yrs</span></div>
+      <div class="tt-row"><span class="tt-label">Complaints</span><span class="tt-val">${node.complaint_count ?? '—'}</span></div>
+      <div class="tt-row"><span class="tt-label">Last maint.</span><span class="tt-val">${node.last_maintenance_date ?? '—'}</span></div>
+      <div class="tt-row"><span class="tt-label">Risk</span><span class="tt-val">${node.risk_level ?? '—'}</span></div>
+      <div style="margin-top:8px; font-size:10px; color:#475569;">Click to view cascade chain</div>
+    </div>`;
+}
+
+// ── Cascade logic ─────────────────────────────────────────────────────────
+let activeCircles = [];
+function clearCascade() {
+  activeCircles.forEach(c => map.removeLayer(c));
+  activeCircles = [];
+  document.getElementById('cascade-alert').style.display = 'none';
+}
+
+async function showCascade(nodeId) {
+  clearCascade();
+  try {
+    const resp = await fetch(`${API_BASE}/api/nodes/${nodeId}/cascade?depth=3`);
+    if (!resp.ok) return;
+    const chain = await resp.json();
+    if (!chain.length) return;
+
+    chain.forEach(n => {
+      const c = L.circleMarker([n.lat, n.lng], {
+        radius: 16,
+        fillColor: healthColour(n.health_score),
+        color: '#ef4444',
+        weight: 2,
+        opacity: 0.9,
+        fillOpacity: 0.3,
+        dashArray: '5,4',
+      }).addTo(map);
+      activeCircles.push(c);
+    });
+
+    const alert = document.getElementById('cascade-alert');
+    document.getElementById('cascade-msg').textContent = `${chain.length} nodes at risk (depth-3 chain)`;
+    alert.style.display = 'block';
+  } catch(e) { /* silent */ }
+}
+
+// ── Metro anchors ─────────────────────────────────────────────────────────
+METRO_ANCHORS.forEach(m => {
+  const icon = L.divIcon({
+    html: `<div style="background:#3b82f6;border:2px solid #93c5fd;border-radius:50%;width:18px;height:18px;display:grid;place-items:center;font-size:10px;box-shadow:0 0 12px #3b82f6;">🚇</div>`,
+    iconSize: [18, 18], iconAnchor: [9, 9], className: '',
+  });
+  L.marker([m.lat, m.lng], { icon })
+    .bindTooltip(`<div class="info-tooltip"><div class="tt-name">${m.name}</div><div class="tt-row"><span class="tt-label">Line</span><span class="tt-val">${m.line}</span></div><div class="tt-row"><span class="tt-label">Daily footfall</span><span class="tt-val">${m.footfall.toLocaleString()}</span></div></div>`, { permanent: false, sticky: true })
+    .addTo(map);
+});
+
+// ── Zone boundary circles ─────────────────────────────────────────────────
+const ZONE_RINGS = [
+  { name: 'Inner Circle',  radius: 220, color: '#8b5cf6' },
+  { name: 'Middle Circle', radius: 440, color: '#6366f1' },
+  { name: 'Outer Circle',  radius: 680, color: '#4338ca' },
+];
+ZONE_RINGS.forEach(z => {
+  L.circle(CP_CENTER, {
+    radius: z.radius, color: z.color, weight: 1.5,
+    opacity: 0.5, fill: false, dashArray: '6,6',
+  }).bindTooltip(z.name, { permanent: false }).addTo(map);
+});
+
+// ── Fetch & render nodes ──────────────────────────────────────────────────
+async function loadNodes() {
+  let nodes = [];
+  try {
+    const resp = await fetch(`${API_BASE}/api/zones/connaught_place/nodes`);
+    if (resp.ok) nodes = await resp.json();
+  } catch(e) { console.warn('API unavailable, using demo fallback'); }
+
+  // Fallback demo nodes if API is unreachable
+  if (!nodes.length) {
+    nodes = [
+      { id:'d1', name:'Janpath Drain North', type:'drain', lat:28.6320, lng:77.2152, health_score:32, age_years:25, complaint_count:12, last_maintenance_date:'2023-06-15', risk_level:'high', zone_type:'connaught_place' },
+      { id:'d2', name:'Barakhamba Drain',     type:'drain', lat:28.6338, lng:77.2225, health_score:58, age_years:18, complaint_count:5,  last_maintenance_date:'2024-01-20', risk_level:'medium', zone_type:'connaught_place' },
+      { id:'r1', name:'Janpath',              type:'road',  lat:28.6315, lng:77.2148, health_score:72, age_years:10, complaint_count:2,  last_maintenance_date:'2024-08-01', risk_level:'low', zone_type:'connaught_place' },
+      { id:'r2', name:'Connaught Circus',     type:'road',  lat:28.6325, lng:77.2200, health_score:45, age_years:22, complaint_count:9,  last_maintenance_date:'2023-03-10', risk_level:'medium', zone_type:'connaught_place' },
+      { id:'t1', name:'Rajiv Chowk T/F',      type:'transformer',  lat:28.6330, lng:77.2180, health_score:88, age_years:5, complaint_count:1, last_maintenance_date:'2024-11-05', risk_level:'low', zone_type:'connaught_place' },
+      { id:'w1', name:'CP Water Works',       type:'water_main',   lat:28.6315, lng:77.2160, health_score:28, age_years:30, complaint_count:18, last_maintenance_date:'2022-09-22', risk_level:'high', zone_type:'connaught_place' },
+      { id:'p1', name:'Central Park CP',      type:'park',  lat:28.6328, lng:77.2168, health_score:81, age_years:15, complaint_count:3, last_maintenance_date:'2024-10-12', risk_level:'low', zone_type:'connaught_place' },
+      { id:'g1', name:'Palika Bazaar Recycling', type:'garbage_zone', lat:28.6325, lng:77.2163, health_score:22, age_years:8, complaint_count:21, last_maintenance_date:'2023-12-01', risk_level:'high', zone_type:'connaught_place' },
+    ];
+  }
+
+  // Stats
+  const counts = { total: nodes.length, critical: 0, warning: 0, healthy: 0, sumH: 0 };
+  nodes.forEach(n => {
+    counts.sumH += n.health_score;
+    if      (n.health_score < 40) counts.critical++;
+    else if (n.health_score < 70) counts.warning++;
+    else                          counts.healthy++;
+  });
+
+  document.getElementById('node-count').textContent = `${counts.total} nodes monitored`;
+  document.getElementById('s-total').textContent = counts.total;
+  document.getElementById('s-crit').textContent  = counts.critical;
+  document.getElementById('s-warn').textContent  = counts.warning;
+  document.getElementById('s-hlth').textContent  = counts.healthy;
+  document.getElementById('s-avg').textContent   = (counts.sumH / counts.total).toFixed(1);
+  document.getElementById('loader').style.display = 'none';
+
+  // Render markers
+  nodes.forEach(node => {
+    const size = node.health_score < 40 ? 12 : node.health_score < 70 ? 9 : 7;
+    const marker = makeMarker(node.lat, node.lng, node.health_score, size);
+
+    // Pulsing ring for critical nodes
+    if (node.health_score < 40) {
+      L.circleMarker([node.lat, node.lng], {
+        radius: 18, fillColor: 'transparent',
+        color: '#ef4444', weight: 1.5, opacity: 0.4, fillOpacity: 0,
+      }).addTo(map);
+    }
+
+    marker
+      .bindTooltip(buildTooltip(node), { permanent: false, sticky: true, maxWidth: 280, className: '' })
+      .on('click', () => showCascade(node.id))
+      .addTo(map);
+  });
+}
+
+// ── Map click to clear cascade ─────────────────────────────────────────────
+map.on('click', clearCascade);
+
+// ── Boot ───────────────────────────────────────────────────────────────────
+loadNodes();
+</script>
+</body>
+</html>
